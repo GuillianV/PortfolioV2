@@ -22,7 +22,13 @@ app.get("/", (req, res) => {
 app.get("/about", (req, res) => {
     res.sendFile(__dirname + "/public-parcel/html/about.html")
 })
-// Listen on port 8080
+
+app.get('*', function(req, res){
+    res.status(404).sendFile(__dirname + "/public-parcel/html/404.html");
+});
+
+
+// Listen on port 8888
 app.listen(gitignore.listenPort, function(){
     console.log("Listening at port : "+gitignore.listenPort)
 });
