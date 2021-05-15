@@ -1,0 +1,4 @@
+/node_modules
+/public-parcel/.cache
+/public-parcel/dist
+/public-parcel/node_modules
