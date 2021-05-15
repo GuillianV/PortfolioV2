@@ -2,3 +2,4 @@
 /public-parcel/.cache
 /public-parcel/dist
 /public-parcel/node_modules
+/modules/gitignore.js
