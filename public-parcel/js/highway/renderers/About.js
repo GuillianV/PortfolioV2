@@ -1,6 +1,9 @@
 import Highway from '@dogstudio/highway'
 import  gsap from 'gsap';
 
+//Load user controls
+import LoadHeader from '../userControls/header'
+
 class About extends Highway.Renderer {
 
 
@@ -10,6 +13,7 @@ class About extends Highway.Renderer {
 
     onEnterCompleted() {
         //Javascript a lancer lorsque la page est chargé
+        LoadHeader()
     }
 
     onLeave() {
