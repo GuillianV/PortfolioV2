@@ -1,5 +1,5 @@
 import Highway from '@dogstudio/highway'
-import  gsap from 'gsap';
+import gsap from 'gsap';
 
 class Home extends Highway.Renderer {
 

@@ -112,24 +112,18 @@ header{
     letter-spacing: 0.3em;
     line-height: 1em;
     text-align: center;
-    transition: all 1s ease;
+ 
 }
 
 .header-presentation-left-vibert{
-    /* transform: translateX(-100%);
-    opacity: 1; */
     margin-left: -200px;
 }
 
 .header-presentation-left-vallet{
-    /* transform: translateX(-100%);
-    opacity: 1; */
     margin-left: 200px;
 }
 
 .header-presentation-left-guillian{
-    /* transform: translateX(-100%);
-    opacity: 1; */
     margin-left: -50px;
 }
 
@@ -155,4 +149,6 @@ header{
     background-repeat: no-repeat;
     height: 100%;
     border-radius: 50%;
+    border: white 5px solid;
+    box-shadow: black 5px 5px;
 }
