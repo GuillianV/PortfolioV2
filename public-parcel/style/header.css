@@ -80,6 +80,36 @@ header{
     height: 100%;
     
 }
+/* HEADER LANG */
+.header-lang{
+    z-index: 10200;
+    position: absolute;
+    width: 4%;
+    height: 2%;
+    top: 0;
+    right: 10%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.header-lang div{
+    text-align: center;
+    text-shadow: black 2px 2px;
+    width: 50%;
+    height: 100%;
+    margin: 5%;
+    
+}
+
+.header-lang div a{
+   text-decoration: none;
+   color: white ;
+}
+
+
 
 /* HEADER PRESENTATION */
 

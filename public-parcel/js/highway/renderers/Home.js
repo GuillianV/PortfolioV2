@@ -15,6 +15,7 @@ class Home extends Highway.Renderer {
     onEnterCompleted() {
         //Javascript a lancer lorsque la page est chargé
         LoadHeader()
+        
     }
 
     onLeave() {

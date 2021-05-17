@@ -1,0 +1,35 @@
+{
+    "langInitial": "fr",
+    "languages": [
+        {
+            "name":"francais",
+            "code":"fr",
+            "allTrad":[
+                {
+                   "key":"Nav-Home",
+                   "traduction":"Acceuil"
+                },
+                {
+                    "key":"Nav-About",
+                    "traduction":"A propos"
+                }
+            ]
+        },
+        {
+            "name":"english",
+            "code":"en",
+            "allTrad":[
+                {
+                   "key":"Nav-Home",
+                   "traduction":"Home"
+                },
+                {
+                    "key":"Nav-About",
+                    "traduction":"About"
+                }
+            ]
+        }
+    ],
+    "author": "Guillian"
+}
+  

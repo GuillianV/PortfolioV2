@@ -8,6 +8,7 @@ import { Loader,LoaderOut } from './transitions/loader'
 
 //Load user controls
 import LoadHeader from './userControls/header'
+import LoadLang from '../lang'
 
 //Load Renderers
 import Home from './renderers/Home'
@@ -20,6 +21,7 @@ import Error404 from './renderers/Error404'
 
 window.onload = function () {
     
+    LoadLang()
     LoaderOut("#loader")
 }
 
@@ -31,13 +33,15 @@ class Router {
 
         this.core.on('NAVIGATE_IN', ({ to, trigger, location }) => {
 
-           
+            
+
         });
 
         this.core.on('NAVIGATE_END', ({ to, from, trigger, location }) => {
 
+            LoadLang()
             LoaderOut("#loader")
-       
+            
 
         });
 
