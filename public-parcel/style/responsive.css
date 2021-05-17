@@ -9,6 +9,70 @@
         width: 100%;
         height: 100%;
         z-index: 10100;
+        pointer-events: none;
     }
+
+    .header-presentation div {
+        width: 100%;
+        height: 50%;
+        margin: 0;
+    }
+ 
+    .header-presentation-left{
+        margin-top: 20% !important;
+    }
+   
+    .header-presentation-left-vibert{
+        margin-left: 0px;
+    }
+
+    .header-presentation-left-vallet{
+        margin-left: 0px;
+    }
+    .header-presentation-left-guillian{
+        margin-left: 0px;
+    }
+
     
+    .header-presentation-right span img{
+      
+        height: 100%;
+     
+    }
+
 }
+
+
+/* @media only screen and (min-device-width : 320px) {
+  
+}
+
+
+
+@media only screen and (min-device-width :980px) {
+ 
+    header{
+        min-width: 100vw;
+    }
+
+    .header-presentation{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+        top: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 10100;
+        pointer-events: none;
+    }
+
+    .header-presentation div {
+        width: 100%;
+        height: 50%;
+        margin: 0;
+    }
+
+} */
+
