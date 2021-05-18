@@ -3,7 +3,7 @@
 //Création de la class Transform
 class Transform {
     constructor(container, inner, rotatePower) {
-
+        
         var container = document.getElementById(container);
         var counter = 0;
         var updateRate = 10;

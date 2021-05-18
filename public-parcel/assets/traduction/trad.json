@@ -2,34 +2,57 @@
     "langInitial": "fr",
     "languages": [
         {
-            "name":"francais",
-            "code":"fr",
-            "allTrad":[
+            "name": "francais",
+            "code": "fr",
+            "allTrad": [
                 {
-                   "key":"Nav-Home",
-                   "traduction":"Acceuil"
+                    "key": "Nav-Home",
+                    "traduction": "Acceuil"
                 },
                 {
-                    "key":"Nav-About",
-                    "traduction":"A propos"
+                    "key": "Nav-About",
+                    "traduction": "A propos"
+                },
+                {
+                    "key": "Nav-Skills",
+                    "traduction": "Compétences"
+                },
+                {
+                    "key": "Nav-Projects",
+                    "traduction": "Projets"
+                },
+                {
+                    "key": "Nav-Contact",
+                    "traduction": "Contact"
                 }
             ]
         },
         {
-            "name":"english",
-            "code":"en",
-            "allTrad":[
+            "name": "english",
+            "code": "en",
+            "allTrad": [
                 {
-                   "key":"Nav-Home",
-                   "traduction":"Home"
+                    "key": "Nav-Home",
+                    "traduction": "Home"
                 },
                 {
-                    "key":"Nav-About",
-                    "traduction":"About"
+                    "key": "Nav-About",
+                    "traduction": "About"
+                },
+                {
+                    "key": "Nav-Skills",
+                    "traduction": "Skills"
+                },
+                {
+                    "key": "Nav-Projects",
+                    "traduction": "Projects"
+                },
+                {
+                    "key": "Nav-Contact",
+                    "traduction": "Contact"
                 }
             ]
         }
     ],
     "author": "Guillian"
 }
-  

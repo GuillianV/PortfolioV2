@@ -2,89 +2,107 @@
 <html>
 
 <head>
-    <title>Guillian</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="../style/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>Guillian</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="../style/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <!-- Loader -->
-    <div class="loader" id="loader">
-      <span class="loader-top">
-       
-        
-      </span>
-      <span class="loader-middle">
-        <svg class="loader-middle-svg" viewBox="0 0 210 210" >
-          <circle class="loader-middle-round" cx="105" cy="105" r="100"/>
-        </svg>
-        <div class="loader-middle-GVV">
-          <div class="loader-middle-G">
-            G
-          </div>
-          <div class="loader-middle-V">
-            V
-          </div>
-          <div class="loader-middle-V2">
-            V
-          </div>
-        </div>
-      </span>
-      <span class="loader-bot">
+  <!-- Loader -->
+  <div class="loader" id="loader">
+    <span class="loader-top">
 
+
+    </span>
+    <span class="loader-middle">
+      <svg class="loader-middle-svg" viewBox="0 0 210 210">
+        <circle class="loader-middle-round" cx="105" cy="105" r="100" />
+      </svg>
+      <div class="loader-middle-GVV">
+        <div class="loader-middle-G">
+          G
+        </div>
+        <div class="loader-middle-V">
+          V
+        </div>
+        <div class="loader-middle-V2">
+          V
+        </div>
+      </div>
+    </span>
+    <span class="loader-bot">
+
+    </span>
+  </div>
+  <!-- Header -->
+  <header>
+    <div class="header-menu">
+      <div class="header-menu-back">
+        <a href="/fr/">
+          <img src="../assets/icons/home.svg">
+        </a>
+      </div>
+      <span>
+        <img src="../assets/icons/down-arrow.svg">
       </span>
     </div>
-    <!-- Header -->
-    <header>
-      <div class="header-menu">
-        <div class="header-menu-back">
-          <a href="/fr/">
-            <img src="../assets/icons/home.svg">
-          </a>
-        </div>
+    <div class="header-lang">
+      <div class="header-lang-fr">
+        <a href="/fr/">FR</a>
+
+      </div>
+      <div class="header-lang-en">
+        <a href="/en/">EN</a>
+
+      </div>
+    </div>
+    <div class="header-presentation" id="header-presentation-container">
+      <div class="header-presentation-left">
+        <span class="header-presentation-left-vibert">VIBERT-</span><br>
+        <span class="header-presentation-left-vallet">VALLET</span><br>
+        <span class="header-presentation-left-guillian">GUILLIAN</span>
+      </div>
+      <div class="header-presentation-right">
         <span>
-            <img src="../assets/icons/down-arrow.svg">
+          <img class="header-presentation-right-img" src="../assets/img/header-guillian.png">
         </span>
       </div>
-      <div class="header-lang">
-        <div class="header-lang-fr">
-          <a href="/fr/">FR</a>
-          
-        </div>
-        <div class="header-lang-en">
-          <a href="/en/">EN</a>
-          
-        </div>
-      </div>
-      <div class="header-presentation" id="header-presentation-container">
-        <div class="header-presentation-left">
-          <span class="header-presentation-left-vibert">VIBERT-</span><br>
-          <span class="header-presentation-left-vallet">VALLET</span><br>
-          <span class="header-presentation-left-guillian">GUILLIAN</span>
-        </div>
-        <div class="header-presentation-right">
-          <span>
-            <img class="header-presentation-righ t-img" src="../assets/img/header-guillian.png">
-          </span>
-        </div>
-      </div>
-    </header>
+    </div>
+  </header>
 
-    <a data-traduction="Nav-About" href="/about/fr">About</a>
-    <a data-traduction="Nav-Home" href="/fr/">Home</a>
+  <!-- Navigation bar -->
+  <nav class="nav-main">
+    <ul>
+      <li>
+        <a data-traduction="Nav-Home" href="/fr/">Home</a>
+      </li>
+      <li>
+        <a data-traduction="Nav-About" href="about/fr/">About</a>
+      </li>
+      <li>
+        <a data-traduction="Nav-Skills" href="skills/fr/">Skills</a>
+      </li>
+      <li>
+        <a data-traduction="Nav-Projects" href="projects/fr/">Projcts</a>
+      </li>
+      <li>
+        <a data-traduction="Nav-Contact" href="contact/fr/">Contact</a>
+      </li>
+    </ul>
+  </nav>
 
-      <main data-router-wrapper>
-          <section data-router-view="Home" class="home">
-            <div class="home-content">
-          
-              Home
-  
-            </div>
-          </section>
-        </main>
-  
-    <script src="../js/highway/highwayCore.js"></script>
+  <main data-router-wrapper>
+    <section data-router-view="Home" class="home">
+      <div class="home-content">
+
+        Home
+
+      </div>
+    </section>
+  </main>
+
+  <script src="../js/highway/highwayCore.js"></script>
 </body>
 
 

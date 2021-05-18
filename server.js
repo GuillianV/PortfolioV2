@@ -35,6 +35,18 @@ app.get("/about/:lng", (req, res) => {
     PrepareBasicRoutes(req,res,"about")
 })
 
+app.get("/skills/:lng", (req, res) => {
+    PrepareBasicRoutes(req,res,"skills")
+})
+
+app.get("/projects/:lng", (req, res) => {
+    PrepareBasicRoutes(req,res,"projects")
+})
+
+app.get("/contact/:lng", (req, res) => {
+    PrepareBasicRoutes(req,res,"contact")
+})
+
 
 
 app.get('*', function(req, res){
