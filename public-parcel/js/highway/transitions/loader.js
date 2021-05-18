@@ -22,7 +22,6 @@ class Loader extends Highway.Transition {
     out({ from, done }) {
         
         LoaderIn(done,"#loader")
-
     }
 
 }
