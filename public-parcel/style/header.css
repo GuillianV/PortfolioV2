@@ -2,7 +2,7 @@
 
 header{
     color: white;
-    text-shadow: black 5px 5px ;
+    text-shadow: rgb(22, 22, 22) 5px 5px ;
     font-family: "JosefinSans-Bold";
     background: url("../assets/img/header-bg.png") fixed;
     width: 100vw;
@@ -11,6 +11,8 @@ header{
     background-size: cover;
     z-index: 10000;
     word-break: initial;
+    border-bottom:rgb(22, 22, 22) 5px solid;
+    margin-bottom: 3%;
 }
 
 /* HEADER MENU */
@@ -97,7 +99,7 @@ header{
 
 .header-lang div{
     text-align: center;
-    text-shadow: black 2px 2px;
+    text-shadow: rgb(22, 22, 22) 2px 2px;
     width: 50%;
     height: 100%;
     margin: 15%;
@@ -187,7 +189,7 @@ header{
     height: 100%;
     border-radius: 50%;
     border: white 5px solid;
-    box-shadow: black 5px 5px;
+    box-shadow: rgb(22, 22, 22) 5px 5px;
     pointer-events: none;
 }
 
