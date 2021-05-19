@@ -1,1 +1,43 @@
 
+/* CONTENT PART */
+
+@media (max-width: 560px) {
+
+    .content{
+        width: 100vw;
+        font-family: "JosefinSans-Bold";
+    }
+
+    .content-title{
+        position: relative;
+        text-align: center;
+        padding: 5vh;
+        font-size: 18vw;
+        word-break: break-all;
+    }
+
+    .content-intruduce{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .content-intruduce div{
+        width: 100%;
+        text-align: justify;
+    }
+
+    .content-intruduce h2{
+        font-family: "JosefinSlab-Bold";
+        width: 100%;
+        text-align: center;
+    }
+
+    .content-intruduce p{
+        font-family: "JosefinSlab-medium";
+        font-size: large;
+        margin: 20px;
+    }
+
+}

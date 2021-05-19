@@ -51,7 +51,12 @@ function LoadLang() {
     for (let data of dataTraduction) {
         let traduction = findTraduction(data.dataset.traduction, language)
         if (traduction != null) {
-            data.innerHTML = traduction[1]
+            if(data.dataset.upper == "true"){
+                data.innerHTML = traduction[1].toUpperCase()
+            }else{
+                data.innerHTML = traduction[1]
+            }
+            
         }
 
     }
