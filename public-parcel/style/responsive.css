@@ -40,4 +40,35 @@
         margin: 20px;
     }
 
+
+    /* .Home-Introduce-Swiper{
+        height: 50vh;
+    }
+
+    .swiper-container-introduce{
+        height: 100%;
+    }
+
+    .swiper-wrapper-Introduce{
+        height: 100%;
+    }
+
+    .swiper-slide-Introduce{
+        position: relative;
+    }
+
+    .swiper-slide-Introduce img{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+    }
+
+    .swiper-container-multirow-column > .swiper-wrapper {
+        flex-direction: inherit !important;
+      } */
+
+
+  
+   
 }

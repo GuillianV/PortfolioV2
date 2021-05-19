@@ -14,3 +14,7 @@ body{
     background: white;
 }
 
+html, body {
+    position: relative;
+    height: 100%;
+  }
