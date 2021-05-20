@@ -241,6 +241,10 @@ header{
 
 @media (max-width: 560px) {
 
+    header{
+        border-bottom:rgb(22, 22, 22) 2px solid;
+    }
+
     .header-lang{
         display: inline;
         width: 100%;

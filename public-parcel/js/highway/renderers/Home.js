@@ -16,22 +16,27 @@ class Home extends Highway.Renderer {
     onEnterCompleted() {
         //Javascript a lancer lorsque la page est chargé
         LoadHeader()
-
+        
         var swiperOptions = {
-            init: true,
+            init: false,
             slidesPerView: 1,
-            spaceBetween: 30,
-            slidesPerColumnFill: 'row',
+            spaceBetween: 0,
+            loop: true,
+            effect: 'flip',
             grabCursor: true,
+            speed: 600,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
             autoplay: {
                 delay: 3000,
                 disableOnInteraction: false
             },
         };
 
-
-      //  var swiperBouteille = new Swiper('.swiper-container-introduce', swiperOptions)
-
+        var swiperBouteille = new Swiper('.swiper-container-introduce', swiperOptions)
+        swiperBouteille.init()
 
     }
 

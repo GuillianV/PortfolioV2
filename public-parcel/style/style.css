@@ -10,11 +10,11 @@
 body{
     padding: 0;
     margin: 0px;
-    overflow-x: hidden;
     background: white;
 }
 
 html, body {
+    overflow-x: hidden;
     position: relative;
     height: 100%;
   }
