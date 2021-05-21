@@ -3,6 +3,8 @@
 @import url("./loader.css");
 @import url("./header.css");
 @import url("./navbar.css");
+@import url("./swiper.css");
+@import url("./content.css");
 @import url("./responsive.css");
 
 
@@ -17,4 +19,5 @@ html, body {
     overflow-x: hidden;
     position: relative;
     height: 100%;
-  }
+}
+

@@ -1,0 +1,218 @@
+/* CONTENT PART */
+
+.content{
+    width: 100vw;
+    font-family: "JosefinSans-Bold";
+}
+
+.content-title{
+    position: relative;
+    text-align: center;
+    padding: 5vh;
+    font-size: 8vw;
+    word-break: break-all;
+}
+
+.content-intruduce{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    height: fit-content;
+    transform: translateY(10vh);
+   
+}
+
+.content-intruduce div{
+    text-align: justify;
+}
+
+.Home-Introduce-h2{
+    transform: translateY(-5vh);
+    position: absolute;
+    font-family: "JosefinSlab-Bold";
+    width: 100%;
+    text-align: center;
+}
+
+.Home-Introduce-Story{
+    width: 40%;
+}
+
+.Home-Introduce-Swiper{
+    width: 60%;
+}
+
+
+.content-intruduce p{
+    font-family: "JosefinSlab-medium";
+    font-size: large;
+    margin: 15%;
+}
+
+
+.swiper-container-introduce{
+    max-height: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide-Introduce{
+   max-height: 100%;
+   min-height: 50%;
+
+}
+
+.swiper-slide-Introduce img{
+    max-height: 80%;
+    height: 80%;
+    background-size: cover;
+    margin: 10%;
+    max-width: 80%;
+    width: 80%;
+    object-fit: cover;
+
+}
+
+
+@media (max-width: 960px) {
+    /* CONTENT PART */
+
+
+    .content{
+        width: 100vw;
+        font-family: "JosefinSans-Bold";
+    }
+    
+    .content-title{
+        position: relative;
+        text-align: center;
+        padding: 5vh;
+        font-size: 10vw;
+        word-break: break-all;
+    }
+    
+
+    .content-intruduce{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: stretch;
+        height: fit-content;
+        transform: translateY(10vh);
+       
+    }
+
+    .content-intruduce div{
+        text-align: justify;
+    }
+
+    .Home-Introduce-h2{
+        transform: translateY(-5vh);
+        position: absolute;
+        font-family: "JosefinSlab-Bold";
+        width: 100%;
+        text-align: center;
+    }
+    
+    .Home-Introduce-Story{
+        width: 40%;
+    }
+
+    .Home-Introduce-Swiper{
+        width: 60%;
+    }
+
+
+    .content-intruduce p{
+        font-family: "JosefinSlab-medium";
+        font-size: large;
+        margin: 15%;
+    }
+
+
+    .swiper-container-introduce{
+        max-height: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+ 
+    .swiper-slide-Introduce{
+       max-height: 100%;
+       min-height: 50%;
+ 
+    }
+
+    .swiper-slide-Introduce img{
+        max-height: 80%;
+        height: 80%;
+        background-size: cover;
+        margin: 10%;
+        max-width: 80%;
+        width: 80%;
+        object-fit: cover;
+ 
+    }
+    
+
+}
+
+@media (max-width: 560px) {
+
+
+
+/* CONTENT PART */
+
+.content{
+    width: 100vw;
+    font-family: "JosefinSans-Bold";
+}
+
+.content-title{
+    position: relative;
+    text-align: center;
+    padding: 5vh;
+    font-size: 18vw;
+    word-break: break-all;
+    transform: translateY(10vh);
+}
+
+.content-intruduce{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.content-intruduce div{
+    width: 100%;
+    text-align: justify;
+}
+
+.Home-Introduce-h2{
+    transform: translateY(0);
+    position: relative;
+    font-family: "JosefinSlab-Bold";
+    width: 100%;
+    text-align: center;
+}
+
+
+.content-intruduce p{
+    font-family: "JosefinSlab-medium";
+    font-size: large;
+    margin: 20px;
+}
+
+.swiper-slide-Introduce {
+   height: 100%;
+
+}
+
+.swiper-slide-Introduce img{
+    width: 90%;
+    margin: 10%;
+}
+
+
+}

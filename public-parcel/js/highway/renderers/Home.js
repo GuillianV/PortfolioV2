@@ -1,6 +1,8 @@
 import Highway from '@dogstudio/highway'
 import gsap from 'gsap';
-import Swiper from 'swiper'
+import * as Swiper from 'swiper'
+
+
 
 //Load user controls
 import LoadHeader from '../userControls/header'
@@ -17,26 +19,23 @@ class Home extends Highway.Renderer {
         //Javascript a lancer lorsque la page est chargé
         LoadHeader()
         
-        var swiperOptions = {
+
+        var swiperBouteille = new Swiper.Swiper('.swiper-container', {
             init: false,
             slidesPerView: 1,
-            spaceBetween: 0,
+            effect: 'fade',
+            fadeEffect: { crossFade: true },
+            spaceBetween: 30,
             loop: true,
-            effect: 'flip',
             grabCursor: true,
             speed: 600,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            autoplay: {
-                delay: 3000,
-                disableOnInteraction: false
-            },
-        };
+        
+        })
 
-        var swiperBouteille = new Swiper('.swiper-container-introduce', swiperOptions)
         swiperBouteille.init()
+        
+      
+
 
     }
 
