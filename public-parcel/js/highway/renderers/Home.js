@@ -2,10 +2,8 @@ import Highway from '@dogstudio/highway'
 import gsap from 'gsap';
 import * as Swiper from 'swiper'
 
-
-
-//Load user controls
 import LoadHeader from '../userControls/header'
+import {MobileOverflow} from '../../detectmobile'
 
 
 class Home extends Highway.Renderer {
@@ -17,8 +15,8 @@ class Home extends Highway.Renderer {
 
     onEnterCompleted() {
         //Javascript a lancer lorsque la page est chargé
+        MobileOverflow()
         LoadHeader()
-        
 
         var swiperBouteille = new Swiper.Swiper('.swiper-container', {
             init: false,
@@ -33,9 +31,9 @@ class Home extends Highway.Renderer {
         })
 
         swiperBouteille.init()
-        
-      
 
+                
+     
 
     }
 
