@@ -167,6 +167,11 @@
         transform: translateY(4vh);
     }
 
+    .block p{
+        font-size: 4.5vh;
+        margin:20px;
+    }
+
     .block-introduce{
         margin-top: 0;
         padding: 0;
@@ -176,10 +181,15 @@
         margin-top: 0;
     }
 
-    .block p{
-        font-size: 4.5vh;
-        margin:20px;
+    .block-Others{
+        height: 50vh;
+        width: auto !important;
+        margin: 20px;
+        background-color: aqua;
     }
+
+
+    
 
 
 
