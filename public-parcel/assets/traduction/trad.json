@@ -32,6 +32,14 @@
                 {
                     "key": "Home-Intrudce-text",
                     "traduction": "Passionné, étudiant et salarié en développement informatique, j’ai découvert le monde du travail en entreprise afin de lier la théorie à la pratique et de mettre en œuvre mes compétences acquises ces dernières années. Curieux et toujours en quête d’apprentissage, je mettrai à profit toute mon énergie ainsi que mon ambition pour apprendre toutes les ficelles du métier, et découvrir les valeurs de votre formation."
+                },
+                {
+                    "key": "Home-Discovery-Title",
+                    "traduction": "DECOUVREZ PLUS !"
+                },
+                {
+                    "key": "Home-Discovery-text",
+                    "traduction": "Venez en découvrir plus sur ma personnalité, mes compétances ainsi que mes envies. N'hésitez pas a me contacter pour plus d'informations ! Bonne Visite !"
                 }
             ]
         },
@@ -66,6 +74,14 @@
                 {
                     "key": "Home-Intrudce-text",
                     "traduction": "Passionate, student and employee in computer science, I discovered the working world in companies. From theory to practice, i improved my recent acquired skill over years. Always curious and in search of learning, I will use all my energy and ambition to learn all the tricks of IT development, and discover the values of working."
+                },
+                {
+                    "key": "Home-Discovery-Title",
+                    "traduction": "DISCOVER MORE !"
+                },
+                {
+                    "key": "Home-Discovery-text",
+                    "traduction": "Venez en découvrir plus sur ma personnalité, mes compétances ainsi que mes envies. N'hésitez pas a me contacter pour plus d'informations ! Bonne Visite !"
                 }
             ]
         }

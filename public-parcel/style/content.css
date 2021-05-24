@@ -14,7 +14,7 @@
     transform: translateY(10vh);
 }
 
-.content-intruduce{
+.content-block{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -26,7 +26,7 @@
 }
 
 
-.Home-Introduce-h2{
+.block-h2{
     transform: translateY(-3vh);
     font-size: 3vw;
     position: absolute;
@@ -35,29 +35,32 @@
     text-align: center;
 }
 
-.content-intruduce div{
+.content-block div{
     text-align: justify;
 }
 
 
-.Home-Introduce-Story{
+.block{
     width: 50%;
-    margin-top: 10vh;
-    padding: 5%;
+    
 
 }
 
-.Home-Introduce-Story p{
+.block-introduce{
+    margin-top: 10vh;
+    padding: 5%;
+}
+
+.block-Discovery{
+    margin-top: 10vh;
+}
+
+.block p{
     font-family: "JosefinSlab-medium";
     font-size: 2vw;
 }
 
 
-.Home-Introduce-Swiper{
-    width: 50%;
-    margin-top: 10vh;
-    padding: 5%;
-}
 
 .swiper-container-introduce{
     height: 100%;
@@ -80,30 +83,41 @@
     
 
 
-    .Home-Introduce-h2{
+    .block-h2{
         transform: translateY(-3vw);
         font-size: 3vw;
     }
+
+    .h2-Discovery{
+        transform: translateY(0);
+    }
     
-    .Home-Introduce-Story{
-        width: 40%;
+
+    .block-introduce{
         margin-top: 5vh;
         padding: 5vh;
     }
 
-    .Home-Introduce-Swiper{
-        width: 60%;
-        margin-top: 5vh;
-        padding: 5vh;
-        padding-left: 0vh;
-        
+    .block-Discovery{
+        margin-top: 10vh;
+        width: 70%;
     }
 
-
-    .Home-Introduce-Story p{
+    .block p{
         font-size: 3vw;
     }
 
+
+    .story{
+        width: 40%;
+        
+    }
+
+    .swiper{
+        width: 60%;
+        padding-left: 0vh;
+        
+    }
 
     .swiper-slide{
         height: 100% ;
@@ -134,35 +148,42 @@
         font-size: 18vw;
     }
 
-    .content-intruduce{
+    .content-block{
         flex-direction: column;
     }
 
-    .content-intruduce div{
+    .content-block div{
         width: 100%;
         text-align: justify;
     }
 
-    .Home-Introduce-h2{
+    .block-h2{
         transform: translateY(0);
         position: relative;
-        font-size: 5vw;
+        font-size: 5vh;
     }
 
-    .Home-Introduce-Story{
+    .h2-Discovery{
+        transform: translateY(4vh);
+    }
+
+    .block-introduce{
         margin-top: 0;
         padding: 0;
-
     }
 
-    .Home-Introduce-Swiper{
+    .block-Discovery{
         margin-top: 0;
     }
 
-    .Home-Introduce-Story p{
+    .block p{
         font-size: 4.5vh;
         margin:20px;
     }
+
+
+
+   
 
 
 
