@@ -6,6 +6,11 @@
     font-family: "JosefinSans-Bold";
 }
 
+.content-wrap{
+    flex-wrap: wrap;
+    height: 100vw;
+}
+
 .content-title{
     position: relative;
     text-align: center;
@@ -25,7 +30,6 @@
     transform: translateY(10vh);
    
 }
-
 
 .block-h2{
     transform: translateY(-3vh);
@@ -56,8 +60,6 @@
     
 }
 
-
-
 .block-introduce{
     margin-top: 10vh;
     padding: 5%;
@@ -67,11 +69,28 @@
     margin-top: 10vh;
 }
 
-
-
 .block-Others{
-
+    height: 40vw;
+    flex: 2 1 auto;
+    margin: 5%;
+    width: 40%;
 }
+
+.block-Others a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.block-Others img{
+    transition: all 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.block-Others img:hover{
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
 
 .block-Others img{
     z-index: 5300;
@@ -83,13 +102,28 @@
 }
 
 .block-Others h3{
-    position: relative;
     z-index: 5400;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    font-family: "JosefinSans-Bold";
+    font-size: 5vw ;
+    word-break: break-all;
+    margin: 0;
+    top: 0;
+    line-height: 15vw;
 }
 
 .block-Others p{
-    position: relative;
     z-index: 5400;
+    position: absolute;
+    top:30%;
+    padding:5%;
+    height: 60%;
+    width: 90%;
+    margin: 0;
+    overflow: auto;
+    text-align: center;
 }
 
 /* SWIPER */
@@ -138,6 +172,21 @@
         width: 70%;
     }
 
+
+    .block-Others ::-webkit-scrollbar {
+        width: 2px;
+    }
+
+
+
+    .block-Others h3{
+        line-height: 15vw;
+    }
+
+    .block-Others p{
+        top:28%;
+    }
+
     .story{
         width: 40%;
         
@@ -182,6 +231,12 @@
         flex-direction: column;
     }
 
+    .content-wrap{
+        flex-wrap: nowrap;
+        height: 100%;
+    }
+
+
     .content-block div{
         width: 100%;
         text-align: justify;
@@ -219,23 +274,6 @@
         margin: 20px;
     }
 
-    .block-Others a{
-        text-decoration: none;
-        color: black;
-        text-align: center;
-    }
-
-    .block-Others img{
-        filter: blur(8px);
-        -webkit-filter: blur(8px);
-        transition: all 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-    }
-
-    .block-Others img:hover{
-        filter: blur(0px);
-        -webkit-filter: blur(0px);
-    }
-
     .block-Others h3{
         position: absolute;
         width: 100%;
@@ -248,22 +286,13 @@
         line-height: 15vh;
     }
 
+
     .block-Others p{
-        position: absolute;
-        top:30%;
-        padding:5%;
-        height: 60%;
-        width: 90%;
+        top:28%;
         margin: 0;
         overflow: auto;
         text-align: center;
     }
     
-
-
-
-   
-
-
 
 }
