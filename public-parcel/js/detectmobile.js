@@ -15,6 +15,7 @@ function detectMob() {
     });
 }
 
+export {detectMob}
 
 function MobileOverflow() {
 
@@ -29,3 +30,16 @@ function MobileOverflow() {
 
 
 export {MobileOverflow}
+
+
+function MatchMedia() {
+    if (window.matchMedia("(max-width: 560px)").matches) {
+        return "560"
+    } else if(window.matchMedia("(max-width: 960px)").matches) {
+        return "960"
+    } else{
+        return "full"
+    }
+}
+
+export {MatchMedia}

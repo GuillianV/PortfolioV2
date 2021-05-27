@@ -3,7 +3,7 @@ import gsap from 'gsap';
 import * as Swiper from 'swiper'
 
 import LoadHeader from '../userControls/header'
-import {MobileOverflow} from '../../detectmobile'
+import {MobileOverflow,MatchMedia,detectMob} from '../../detectmobile'
 
 
 class Home extends Highway.Renderer {
@@ -32,8 +32,11 @@ class Home extends Highway.Renderer {
 
         swiperBouteille.init()
 
-                
-     
+        let windowsWidth = MatchMedia();
+        let IsMobile = detectMob();      
+        
+        console.log(windowsWidth)
+        console.log(IsMobile)
 
     }
 
