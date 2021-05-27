@@ -1,9 +1,13 @@
 import Highway from '@dogstudio/highway'
 import gsap from 'gsap';
+import {MotionPathPlugin} from 'gsap/MotionPathPlugin'
+import {ScrollToPlugin} from 'gsap/ScrollToPlugin'
+import {ScrollTrigger} from 'gsap/ScrollTrigger'
+gsap.registerPlugin(MotionPathPlugin,ScrollToPlugin,ScrollTrigger)
 import * as Swiper from 'swiper'
 
 import LoadHeader from '../userControls/header'
-import {MobileOverflow,MatchMedia,detectMob} from '../../detectmobile'
+import { MobileOverflow, MatchMedia, detectMob } from '../../detectmobile'
 
 
 class Home extends Highway.Renderer {
@@ -27,16 +31,35 @@ class Home extends Highway.Renderer {
             loop: true,
             grabCursor: true,
             speed: 600,
-        
+
         })
 
         swiperBouteille.init()
 
         let windowsWidth = MatchMedia();
-        let IsMobile = detectMob();      
-        
+        let IsMobile = detectMob();
+
         console.log(windowsWidth)
         console.log(IsMobile)
+
+        
+
+        // let tl = gsap.timeline({
+        //     scrollTrigger: {
+        //       markers:true,
+        //       trigger: ".other1",
+        //       endTrigger:".other3",
+        //       start: "top 80%", 
+        //       end: "top 10%", 
+        //       scrub: 1, 
+        //     }
+        // });
+
+        // tl.to(".other2",{
+        //     x:100
+        // })
+ 
+
 
     }
 
