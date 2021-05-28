@@ -1,9 +1,9 @@
 import Highway from '@dogstudio/highway'
-import gsap from 'gsap';
-import {MotionPathPlugin} from 'gsap/MotionPathPlugin'
-import {ScrollToPlugin} from 'gsap/ScrollToPlugin'
-import {ScrollTrigger} from 'gsap/ScrollTrigger'
-gsap.registerPlugin(MotionPathPlugin,ScrollToPlugin,ScrollTrigger)
+import gsap, { Expo } from 'gsap';
+import { MotionPathPlugin } from 'gsap/MotionPathPlugin'
+import { ScrollToPlugin } from 'gsap/ScrollToPlugin'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+gsap.registerPlugin(MotionPathPlugin, ScrollToPlugin, ScrollTrigger)
 import * as Swiper from 'swiper'
 
 import LoadHeader from '../userControls/header'
@@ -15,14 +15,20 @@ class Home extends Highway.Renderer {
 
     onEnter() {
         //Javascript a lancer lorsque la page se charge
+        
     }
 
     onEnterCompleted() {
         //Javascript a lancer lorsque la page est chargé
+
+        let windowsWidth = MatchMedia();
+        let IsMobile = detectMob();
+
         MobileOverflow()
         LoadHeader()
 
-        var swiperBouteille = new Swiper.Swiper('.swiper-container', {
+        //SWIPER INTRODUCE
+        var swiperIntroduce = new Swiper.Swiper('.swiper-container', {
             init: false,
             slidesPerView: 1,
             effect: 'fade',
@@ -33,33 +39,186 @@ class Home extends Highway.Renderer {
             speed: 600,
 
         })
-
-        swiperBouteille.init()
-
-        let windowsWidth = MatchMedia();
-        let IsMobile = detectMob();
-
-        console.log(windowsWidth)
-        console.log(IsMobile)
+        swiperIntroduce.init()
 
         
+        //CONTENT ANNIMATION
+        if (windowsWidth == "960" || windowsWidth == "full") {
+            let startMod
+            let endMod
+            let debugMode = false
 
-        // let tl = gsap.timeline({
-        //     scrollTrigger: {
-        //       markers:true,
-        //       trigger: ".other1",
-        //       endTrigger:".other3",
-        //       start: "top 80%", 
-        //       end: "top 10%", 
-        //       scrub: 1, 
-        //     }
-        // });
+            if(windowsWidth == "960"){
+                startMod = "top 100%"
+                endMod = "top 60%"
+            }
+            else{
+                startMod = "top 70%"
+                endMod = "top 20%"
+            }
+                
 
-        // tl.to(".other2",{
-        //     x:100
-        // })
- 
 
+            //COMPETANCES
+            let skillsText = gsap.timeline({
+                scrollTrigger: {
+                    markers: debugMode,
+                    trigger: ".other1",
+                    start: startMod,
+                    end: endMod,
+                    scrub: 1,
+                }
+            });
+
+            skillsText.fromTo(".other2", {
+                xPercent: -100,
+                opacity: 0
+
+            }, {
+                xPercent: 0,
+                opacity: 1,
+                ease: Expo.easeInOut
+            })
+
+
+            let skillsImg = gsap.timeline({
+                scrollTrigger: {
+                    markers: debugMode,
+                    trigger: ".other1",
+                    start: startMod,
+                    end: endMod,
+                    scrub: 1,
+                }
+            });
+
+            skillsImg.fromTo(".other1 a img", {
+                webkitFilter: "blur(8px)"
+            }, {
+                webkitFilter: "blur(0px)"
+            })
+
+           
+
+
+
+            //MES PROJETS
+            let ProjText = gsap.timeline({
+                scrollTrigger: {
+                    markers: debugMode,
+                    trigger: ".other3",
+                    start: startMod,
+                    end: endMod,
+                    scrub: 1,
+                }
+            });
+
+            
+            ProjText.fromTo(".other3 ", {
+                xPercent: 100,
+                opacity: 0
+
+            }, {
+                xPercent: 0,
+                opacity: 1,
+                ease: Expo.easeInOut
+            })
+
+            let ProjImg = gsap.timeline({
+                scrollTrigger: {
+                    markers: debugMode,
+                    trigger: ".other3",
+                    start: startMod,
+                    end: endMod,
+                    scrub: 1,
+                }
+            });
+
+            ProjImg.fromTo(".other4 a img", {
+                webkitFilter: "blur(8px)"
+            }, {
+                webkitFilter: "blur(0px)"
+            })
+
+
+             //A PROPOS
+             let ProposText = gsap.timeline({
+                scrollTrigger: {
+                    markers: debugMode,
+                    trigger: ".other5",
+                    start: startMod,
+                    end: endMod,
+                    scrub: 1,
+                }
+            });
+
+            
+            ProposText.fromTo(".other6", {
+                xPercent: -100,
+                opacity: 0
+
+            }, {
+                xPercent: 0,
+                opacity: 1,
+                ease: Expo.easeInOut
+            })
+            
+            let ProposImg = gsap.timeline({
+                scrollTrigger: {
+                    markers: debugMode,
+                    trigger: ".other5",
+                    start: startMod,
+                    end: endMod,
+                    scrub: 1,
+                }
+            });
+
+            ProposImg.fromTo(".other5 a img", {
+                webkitFilter: "blur(8px)"
+            }, {
+                webkitFilter: "blur(0px)"
+            })
+
+
+
+              //CONTACT
+              let ContactText = gsap.timeline({
+                scrollTrigger: {
+                    markers: debugMode,
+                    trigger: ".other7",
+                    start: startMod,
+                    end: endMod,
+                    scrub: 1,
+                }
+            });
+
+            
+            ContactText.fromTo(".other7", {
+                xPercent: 100,
+                opacity: 0
+
+            }, {
+                xPercent: 0,
+                opacity: 1,
+                ease: Expo.easeInOut
+            })
+            
+            let ContactImg = gsap.timeline({
+                scrollTrigger: {
+                    markers: debugMode,
+                    trigger: ".other7",
+                    start: startMod,
+                    end: endMod,
+                    scrub: 1,
+                }
+            });
+
+            ContactImg.fromTo(".other8 a img", {
+                webkitFilter: "blur(8px)"
+            }, {
+                webkitFilter: "blur(0px)"
+            })
+
+        }
 
     }
 

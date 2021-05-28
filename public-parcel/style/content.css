@@ -76,20 +76,21 @@
     width: 40%;
 }
 
+.other-img{
+    transition: all 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transform-origin: bottom right;
+}
+
+.other-img:hover{
+    transform: scale(1.1) rotate(5deg);
+}
+
 .block-Others a{
     text-decoration: none;
     color: black;
     text-align: center;
 }
 
-.block-Others img{
-    transition: all 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-.block-Others img:hover{
-    filter: blur(3px);
-    -webkit-filter: blur(3px);
-}
 
 
 .block-Others img{
@@ -124,6 +125,10 @@
     margin: 0;
     overflow: auto;
     text-align: center;
+}
+
+.other-text{
+    z-index: 5100;
 }
 
 /* SWIPER */
@@ -274,6 +279,14 @@
         height: 50vh;
         width: auto !important;
         margin: 20px;
+    }
+
+    .other-img:hover{
+        transform-origin: center center;
+    }
+
+    .other-img:hover{
+        transform: scale(1.1);
     }
 
     .block-Others h3{
