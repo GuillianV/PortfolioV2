@@ -53,8 +53,8 @@ class Home extends Highway.Renderer {
                 endMod = "top 60%"
             }
             else{
-                startMod = "top 70%"
-                endMod = "top 20%"
+                startMod = "top 80%"
+                endMod = "top 30%"
             }
                 
 
@@ -94,7 +94,9 @@ class Home extends Highway.Renderer {
             skillsImg.fromTo(".other1 a img", {
                 webkitFilter: "blur(8px)"
             }, {
-                webkitFilter: "blur(0px)"
+                webkitFilter: "blur(0px)",
+                rotate:2
+                
             })
 
            
@@ -136,7 +138,8 @@ class Home extends Highway.Renderer {
             ProjImg.fromTo(".other4 a img", {
                 webkitFilter: "blur(8px)"
             }, {
-                webkitFilter: "blur(0px)"
+                webkitFilter: "blur(0px)",
+                rotate:-2
             })
 
 
@@ -175,7 +178,8 @@ class Home extends Highway.Renderer {
             ProposImg.fromTo(".other5 a img", {
                 webkitFilter: "blur(8px)"
             }, {
-                webkitFilter: "blur(0px)"
+                webkitFilter: "blur(0px)",
+                rotate:2
             })
 
 
@@ -215,7 +219,8 @@ class Home extends Highway.Renderer {
             ContactImg.fromTo(".other8 a img", {
                 webkitFilter: "blur(8px)"
             }, {
-                webkitFilter: "blur(0px)"
+                webkitFilter: "blur(0px)",
+                rotate:-2
             })
 
         }

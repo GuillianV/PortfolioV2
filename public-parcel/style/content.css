@@ -78,10 +78,27 @@
 
 .other-img{
     transition: all 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-    transform-origin: bottom right;
+
 }
 
-.other-img:hover{
+.other-img-right{
+    transform-origin: bottom left;
+
+}
+
+
+.other-img-right:hover{
+
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.other-img-left{
+    transform-origin: bottom right;
+
+}
+
+.other-img-left:hover{
+    
     transform: scale(1.1) rotate(5deg);
 }
 
@@ -100,6 +117,7 @@
     width: 100%;
     object-fit: cover;
     top: 0;
+    transform-origin: bottom right;
 }
 
 .block-Others h3{
@@ -212,6 +230,7 @@
     .swiper-slide-Introduce img{
         object-fit: cover;
         height: 100%;
+        
  
     }
     
@@ -281,11 +300,13 @@
         margin: 20px;
     }
 
-    .other-img:hover{
+    .other-img{
+        
         transform-origin: center center;
     }
 
     .other-img:hover{
+        
         transform: scale(1.1);
     }
 
@@ -296,7 +317,11 @@
         line-height: 15vh;
     }
 
+    .block-Others img{
+        transform-origin: center center;
+    }
 
+    
     .block-Others p{
         position: relative;
         padding: 1%;

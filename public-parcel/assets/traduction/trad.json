@@ -40,6 +40,22 @@
                 {
                     "key": "Home-Discovery-text",
                     "traduction": "Venez en découvrir plus sur ma personnalité, mes compétances ainsi que mes envies. N'hésitez pas a me contacter pour plus d'informations ! Bonne Visite !"
+                },
+                {
+                    "key": "About-Home",
+                    "traduction": "De mes passions à mes jeux préferés, je vous ouvre dans cette rubrique une petite portion de ma vie personnelle !"
+                },
+                {
+                    "key": "Skills-Home",
+                    "traduction": "Vous allez découvrir une liste subjective de mon niveau de compétances informatiques et personnels."
+                },
+                {
+                    "key": "Project-Home",
+                    "traduction": "Dans cette rubrique, vous pouvez découvrir les nombreux projets que j'ai pu réaliser. Du loisir personnel aux projets informatiques, il y en à pour tous les gouts !"
+                },
+                {
+                    "key": "Contact-Home",
+                    "traduction": "Pour avoir plus d'information sur comment pouvez vous me contacter, n'hésitez pas à visiter ma ribrique contact !"
                 }
             ]
         },
@@ -81,7 +97,23 @@
                 },
                 {
                     "key": "Home-Discovery-text",
-                    "traduction": "Venez en découvrir plus sur ma personnalité, mes compétances ainsi que mes envies. N'hésitez pas a me contacter pour plus d'informations ! Bonne Visite !"
+                    "traduction": "Come here to learn more about my personality, my skills and my desire. Contact me for more informations ! Nice visit !"
+                },
+                {
+                    "key": "About-Home",
+                    "traduction": "From my hobby to my favorite games, i open to you, in this section, few parts of my life !"
+                },
+                {
+                    "key": "Skills-Home",
+                    "traduction": "You will discover here an non subjective list of my personal and IT skills."
+                },
+                {
+                    "key": "Project-Home",
+                    "traduction": "In this section, i'll discover a lot of projects that I made. From my IT to my personal hobbys projects, There is something for every taste here !"
+                },
+                {
+                    "key": "Contact-Home",
+                    "traduction": "For more informations on how you can contact me, rush on contact section !"
                 }
             ]
         }
