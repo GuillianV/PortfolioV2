@@ -7,6 +7,7 @@ gsap.registerPlugin(MotionPathPlugin, ScrollToPlugin, ScrollTrigger)
 import * as Swiper from 'swiper'
 
 import LoadHeader from '../userControls/header'
+import LoadFooter from '../userControls/footer'
 import { MobileOverflow, MatchMedia, detectMob } from '../../detectmobile'
 
 
@@ -26,6 +27,7 @@ class Home extends Highway.Renderer {
 
         MobileOverflow()
         LoadHeader()
+        LoadFooter()
 
         //SWIPER INTRODUCE
         var swiperIntroduce = new Swiper.Swiper('.swiper-container', {

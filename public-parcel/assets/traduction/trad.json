@@ -56,6 +56,10 @@
                 {
                     "key": "Contact-Home",
                     "traduction": "Pour avoir plus d'information sur comment pouvez vous me contacter, n'hésitez pas à visiter ma ribrique contact !"
+                },
+                {
+                    "key": "Lagal-Mention",
+                    "traduction": "Mentions Legales"
                 }
             ]
         },
@@ -114,6 +118,10 @@
                 {
                     "key": "Contact-Home",
                     "traduction": "For more informations on how you can contact me, rush on contact section !"
+                },
+                {
+                    "key": "Lagal-Mention",
+                    "traduction": "Legal Mentions"
                 }
             ]
         }

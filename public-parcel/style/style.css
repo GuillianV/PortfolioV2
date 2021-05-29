@@ -2,12 +2,16 @@
 @import url("./scrollbar.css");
 @import url("./loader.css");
 @import url("./header.css");
+@import url("./footer.css");
 @import url("./navbar.css");
 @import url("./swiper.css");
 @import url("./content.css");
 @import url("./responsive.css");
 
-
+:root {
+    --white-couleur: white;
+    --dark-grey-couleur: rgb(22,22,22);
+}
 
 body{
     padding: 0;
