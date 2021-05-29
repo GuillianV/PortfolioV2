@@ -13,6 +13,10 @@ import LoadLang from '../lang'
 //Load Renderers
 import Home from './renderers/Home'
 import About from './renderers/About'
+import Mentions from './renderers/Mentions'
+import Projects from './renderers/Projects'
+import Skills from './renderers/Skills'
+import Contact from './renderers/Contact'
 import Error404 from './renderers/Error404'
 
 
@@ -62,7 +66,11 @@ const router = new Router({
     renderers: {
         Home,
         About,
-        Error404
+        Error404,
+        Contact,
+        Skills,
+        Projects,
+        Mentions
     },
 });
 

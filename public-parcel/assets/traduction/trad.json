@@ -60,6 +60,9 @@
                 {
                     "key": "Lagal-Mention",
                     "traduction": "Mentions Legales"
+                },{
+                    "key": "Construction",
+                    "traduction": "Page en construction"
                 }
             ]
         },
@@ -122,6 +125,9 @@
                 {
                     "key": "Lagal-Mention",
                     "traduction": "Legal Mentions"
+                },{
+                    "key": "Construction",
+                    "traduction": "Page under development"
                 }
             ]
         }

@@ -5,11 +5,13 @@ function LoadLang() {
 
 
     let langueEnCours = document.documentElement.lang
-
-    if (window.location.href.indexOf("en") > -1) {
+    let langVerif = window.location.href.slice(-3)
+    if (langVerif.indexOf("en") > -1) {
+        console.log("en")
         langueEnCours = "en"
         document.documentElement.lang = "en"
     } else {
+        console.log("fr")
         langueEnCours = "fr"
         document.documentElement.lang = "fr"
     }

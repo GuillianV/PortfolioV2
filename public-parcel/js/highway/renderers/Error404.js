@@ -1,6 +1,11 @@
 import Highway from '@dogstudio/highway'
 import  gsap from 'gsap';
 
+//Load user controls
+import LoadHeader from '../userControls/header'
+import LoadFooter from '../userControls/footer'
+import { MobileOverflow, MatchMedia, detectMob } from '../../detectmobile'
+
 class Error404 extends Highway.Renderer {
 
 
@@ -10,6 +15,12 @@ class Error404 extends Highway.Renderer {
 
     onEnterCompleted() {
         //Javascript a lancer lorsque la page est chargé
+        let windowsWidth = MatchMedia();
+        let IsMobile = detectMob();
+
+        MobileOverflow()
+        LoadHeader()
+        LoadFooter()
     }
 
     onLeave() {

@@ -6,7 +6,7 @@ import LoadHeader from '../userControls/header'
 import LoadFooter from '../userControls/footer'
 import { MobileOverflow, MatchMedia, detectMob } from '../../detectmobile'
 
-class About extends Highway.Renderer {
+class Projects extends Highway.Renderer {
 
 
     onEnter() {
@@ -32,4 +32,4 @@ class About extends Highway.Renderer {
     }
 }
 
-export default About;
+export default Projects;

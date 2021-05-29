@@ -47,6 +47,11 @@ app.get("/contact/:lng", (req, res) => {
     PrepareBasicRoutes(req,res,"contact")
 })
 
+app.get("/mentions-legales/:lng", (req, res) => {
+    PrepareBasicRoutes(req,res,"mentions")
+})
+
+
 
 
 app.get('*', function(req, res){
@@ -63,7 +68,8 @@ app.listen(gitignore.listenPort, function(){
 
 //Preparing routes
 function PrepareBasicRoutes(req,res,htmlFile){
-    if(req.params.lng != "fr" && req.params.lng != "en"){
+    let lang = req.params.lng.slice(-2)
+    if(lang != "fr" && lang != "en"){
         res.status(404).sendFile(__dirname + "/public-parcel/html/404.html");
     }else{
         res.sendFile(__dirname + "/public-parcel/html/" + htmlFile+".html")
