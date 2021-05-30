@@ -7,14 +7,14 @@ function LoadLang() {
     let langueEnCours = document.documentElement.lang
     let langVerif = window.location.href.slice(-3)
     if (langVerif.indexOf("en") > -1) {
-        console.log("en")
         langueEnCours = "en"
         document.documentElement.lang = "en"
     } else {
-        console.log("fr")
         langueEnCours = "fr"
         document.documentElement.lang = "fr"
     }
+
+
 
 
     let Json = JSON;
@@ -28,6 +28,24 @@ function LoadLang() {
     }
 
     let dataHref = document.querySelectorAll("a")
+
+    for(let dataMain of dataHref){
+        
+        if(dataMain.dataset.main != null)
+        {
+            
+            let baseUriCopy = dataMain.baseURI
+            let checkLang = baseUriCopy.slice(-3)
+            if(checkLang.includes("fr/") || checkLang.includes("en/")){
+                //Rewrite main url
+                let newHrefMain = dataMain.origin + "/" + dataMain.dataset.main + checkLang
+                dataMain.href = newHrefMain
+            }
+            
+        }
+    }
+
+
     if (langueEnCours == "en") {
         for (let data of dataHref) {
             if(data.innerHTML != "FR" && data.innerHTML != "EN" ){
