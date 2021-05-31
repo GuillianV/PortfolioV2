@@ -195,6 +195,24 @@ header{
 
 /* MEDIA 960 */
 
+@media (min-height: 1000px) {
+
+    .header-presentation-right span{
+
+        position: relative;
+    }
+
+    .header-presentation-right span img{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        left: 0;
+        top: 25%;
+
+    }
+}
+
+
 @media (max-width: 960px) {
 
     .header-lang div{

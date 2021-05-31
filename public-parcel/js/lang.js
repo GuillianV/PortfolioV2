@@ -3,29 +3,34 @@ import * as JSON from "../assets/traduction/trad.json"
 
 function LoadLang() {
 
-
-    let langueEnCours = document.documentElement.lang
     let langVerif = window.location.href.slice(-3)
-    if (langVerif.indexOf("en") > -1) {
-        langueEnCours = "en"
-        document.documentElement.lang = "en"
-    } else {
-        langueEnCours = "fr"
-        document.documentElement.lang = "fr"
+    let langueActive = ""; //Code de la langue active
+    let Json = JSON; //Tableau complet des trads
+    let language; //Tableau de traductions
+
+    for (let JsonLanguage of Json.languages) {
+
+
+        if(langVerif.indexOf(JsonLanguage.code) > -1){
+            langueActive = JsonLanguage.code
+            document.documentElement.lang = JsonLanguage.code
+            language = JsonLanguage
+        }
+
     }
 
 
-
-
-    let Json = JSON;
-    let language;
-
-
-    for (let languagesEnCour of Json.languages) {
-        if (languagesEnCour.code == langueEnCours) {
-            language = languagesEnCour
+    if(langueActive == ""){
+        for (let JsonLanguage of Json.languages) {
+            if(Json.langInitial == JsonLanguage.code){
+                langueActive = JsonLanguage.code
+                document.documentElement.lang = JsonLanguage.code
+                language = JsonLanguage
+            }
+    
         }
     }
+
 
     let dataHref = document.querySelectorAll("a")
 
@@ -36,35 +41,17 @@ function LoadLang() {
             
             let baseUriCopy = dataMain.baseURI
             let checkLang = baseUriCopy.slice(-3)
-            if(checkLang.includes("fr/") || checkLang.includes("en/")){
-                //Rewrite main url
+            if(checkLang.includes(langueActive+"/")){
                 let newHrefMain = dataMain.origin + "/" + dataMain.dataset.main + checkLang
                 dataMain.href = newHrefMain
             }
             
+        } else if(dataMain.innerHTML != "FR" && dataMain.innerHTML != "EN"){
+            let newHref = dataMain.href
+            newHref = newHref.replace('/'+Json.langInitial, '/'+langueActive)
+            dataMain.href = newHref
         }
     }
-
-
-    if (langueEnCours == "en") {
-        for (let data of dataHref) {
-            if(data.innerHTML != "FR" && data.innerHTML != "EN" ){
-                let newHref = data.href
-                newHref = newHref.replace('/fr', '/en')
-                data.href = newHref
-            }
-        }
-    }else{
-        for (let data of dataHref) {
-            if(data.innerHTML != "FR" && data.innerHTML != "EN" ){
-                let newHref = data.href
-                newHref = newHref.replace('/en', '/fr')
-                data.href = newHref
-            }
-        }
-    }
-
-
 
 
     let dataTraduction = document.querySelectorAll("[data-traduction]")

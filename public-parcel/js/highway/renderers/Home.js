@@ -9,6 +9,7 @@ import * as Swiper from 'swiper'
 import LoadHeader from '../userControls/header'
 import LoadFooter from '../userControls/footer'
 import { MobileOverflow, MatchMedia, detectMob } from '../../detectmobile'
+import Transform from '../../transform'
 
 
 class Home extends Highway.Renderer {
@@ -44,6 +45,10 @@ class Home extends Highway.Renderer {
         swiperIntroduce.init()
 
         
+        if(!IsMobile){
+            const T = new Transform("header-presentation-container","header-presentation-right-img",20)
+        }
+
         //CONTENT ANNIMATION
         if (windowsWidth == "960" || windowsWidth == "full") {
             let startMod
