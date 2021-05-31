@@ -64,6 +64,10 @@ class Home extends Highway.Renderer {
                 endMod = "top 30%"
             }
                 
+            if(IsMobile){
+                startMod = "top 100%"
+                endMod = "top 90%"
+            }
 
 
             //COMPETANCES

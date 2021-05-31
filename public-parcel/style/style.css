@@ -33,4 +33,5 @@ html, body {
     text-align: center;
     line-height: 3;
     font-size: 10vh;
+    word-break: break-all;
 }
