@@ -1,6 +1,9 @@
 import Highway from '@dogstudio/highway'
-import  gsap from 'gsap';
-
+import  gsap, { Expo } from 'gsap';
+import { MotionPathPlugin } from 'gsap/MotionPathPlugin'
+import { ScrollToPlugin } from 'gsap/ScrollToPlugin'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+gsap.registerPlugin(MotionPathPlugin, ScrollToPlugin, ScrollTrigger)
 //Load user controls
 import LoadHeader from '../userControls/header'
 import LoadFooter from '../userControls/footer'
@@ -21,6 +24,23 @@ class About extends Highway.Renderer {
         MobileOverflow()
         LoadHeader()
         LoadFooter()
+
+        const tl = gsap.timeline();
+        tl.to(".part1",5,{y:400})
+        .to(".part2",5,{y:500},'-=5')
+        .to(".part3",5,{y:300},'-=5')
+        .to(".part4",5,{y:-100},'-=5')
+        .to(".part5",5,{y:500},'-=5')
+        .to(".part6",5,{y:-500},'-=5')
+        .to(".bottom-shadow",5,{y:-500},'-=5')
+
+        ScrollTrigger.create({
+            animation:tl,
+            trigger:".hero-section",
+            start:"center center",
+            end:"+=2000",
+            scrub:true
+        })
     }
 
     onLeave() {

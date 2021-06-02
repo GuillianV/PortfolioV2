@@ -35,3 +35,57 @@ html, body {
     font-size: 10vh;
     word-break: break-all;
 }
+
+
+*,* :after ,*:before{
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing:border-box;
+  -moz-box-sizing: border-box;
+}
+
+.content-section {
+	height:100vh;
+  display: flex;
+  justify-content: space-around;
+	background-color:white;
+  position: relative;
+  background: #130D0A;
+}
+
+.myBody{
+  position: relative;
+  width: 100%;
+  
+}
+
+.hero-section{
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-section img {
+
+  max-width: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  object-fit: cover;
+  background-position: bottom center;
+}
+
+.part4{
+  right: 0;
+  left: auto !important;
+}
+
+.bottom-shadow{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: #130D0A;
+  height: 100%;
+  z-index: 1;
+}
