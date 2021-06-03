@@ -50,12 +50,17 @@ html, body {
   justify-content: space-around;
 	background-color:white;
   position: relative;
-  background: #130D0A;
+  background: white;
+}
+
+.myHeader{
+  z-index: 3000;
 }
 
 .myBody{
   position: relative;
   width: 100%;
+  z-index: 2000;
   
 }
 
@@ -75,17 +80,31 @@ html, body {
   background-position: bottom center;
 }
 
+.part2{
+  background-position: top center !important;
+  height: 100vh;
+
+}
+.part3{
+  background-position: top center !important;
+  height: 100vh;
+}
+
 .part4{
-  right: 0;
+  right: 20%;
+  height: 70vh;
   left: auto !important;
+}
+.part5{
+  opacity: 0.2;
 }
 
 .bottom-shadow{
   position: absolute;
-  top: 100%;
+  top: 99%;
   left: 0;
   width: 100%;
-  background: #130D0A;
+  background: white;
   height: 100%;
   z-index: 1;
 }

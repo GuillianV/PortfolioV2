@@ -27,9 +27,9 @@ class About extends Highway.Renderer {
 
         const tl = gsap.timeline();
         tl.to(".part1",5,{y:400})
-        .to(".part2",5,{y:500},'-=5')
-        .to(".part3",5,{y:300},'-=5')
-        .to(".part4",5,{y:-100},'-=5')
+        .to(".part2",5,{y:-500},'-=5')
+        .to(".part3",5,{y:-200},'-=5')
+        .to(".part4",5,{y:-200},'-=5')
         .to(".part5",5,{y:500},'-=5')
         .to(".part6",5,{y:-500},'-=5')
         .to(".bottom-shadow",5,{y:-500},'-=5')
@@ -37,7 +37,8 @@ class About extends Highway.Renderer {
         ScrollTrigger.create({
             animation:tl,
             trigger:".hero-section",
-            start:"center center",
+            markers:false,
+            start:"top 50%",
             end:"+=2000",
             scrub:true
         })
