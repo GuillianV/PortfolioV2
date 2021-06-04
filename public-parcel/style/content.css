@@ -31,6 +31,65 @@
    
 }
 
+
+
+
+
+  .parallax-section{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .parallax-layers{
+  
+    max-width: 100%;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+    background-position: bottom center;
+  }
+  
+  .layer2{
+    background-position: top center !important;
+    height: 100vh;
+  
+  }
+  .layer3{
+    background-position: top center !important;
+    height: 100vh;
+  }
+  
+  .layer4{
+    right: 20%;
+    height: 70vh;
+    left: auto !important;
+  }
+  .layer5{
+    opacity: 0.2;
+  }
+  
+  .parallax-bottom{
+    position: absolute;
+    top: 99%;
+    left: 0;
+    width: 100%;
+    background: white;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .parallax-section-text {
+    height:100vh;
+    display: flex;
+    justify-content: space-around;
+    background-color:white;
+    position: relative;
+    background: white;
+}
+
+
 .block-h2{
     transform: translateY(-3vh);
     font-size: 3vw;
@@ -180,6 +239,10 @@
     .h2-Discovery{
         transform: translateY(0);
     }
+
+    .block-fullsize{
+        width: 100%;
+    }
     
     .block p{
         font-size: 3vw;
@@ -244,6 +307,7 @@
 
     /* CONTENT PART */
 
+   
     .content{
         width: 100vw;
         font-family: "JosefinSans-Bold";
@@ -252,6 +316,11 @@
     .content-title{
         font-size: 18vw;
     }
+
+    .content-title-small{
+        font-size: 13vw;
+    }
+
 
     .content-block{
         flex-direction: column;

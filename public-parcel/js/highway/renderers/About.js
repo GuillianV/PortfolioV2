@@ -26,17 +26,17 @@ class About extends Highway.Renderer {
         LoadFooter()
 
         const tl = gsap.timeline();
-        tl.to(".part1",5,{y:400})
-        .to(".part2",5,{y:-500},'-=5')
-        .to(".part3",5,{y:-200},'-=5')
-        .to(".part4",5,{y:-200},'-=5')
-        .to(".part5",5,{y:500},'-=5')
-        .to(".part6",5,{y:-500},'-=5')
-        .to(".bottom-shadow",5,{y:-500},'-=5')
+        tl.to(".layer1",5,{y:400})
+        .to(".layer2",5,{y:-500},'-=5')
+        .to(".layer3",5,{y:-200},'-=5')
+        .to(".layer4",5,{y:200},'-=5')
+        .to(".layer5",5,{y:500},'-=5')
+        .to(".layer6",5,{y:-500},'-=5')
+        .to(".parallax-bottom",5,{y:-500},'-=5')
 
         ScrollTrigger.create({
             animation:tl,
-            trigger:".hero-section",
+            trigger:".parallax-section",
             markers:false,
             start:"top 50%",
             end:"+=2000",
