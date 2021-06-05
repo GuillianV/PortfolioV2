@@ -2,8 +2,9 @@ import Highway from '@dogstudio/highway'
 import  gsap, { Expo } from 'gsap';
 import { MotionPathPlugin } from 'gsap/MotionPathPlugin'
 import { ScrollToPlugin } from 'gsap/ScrollToPlugin'
+// import { DrawSVGPlugin } from 'gsap/DrawSVGPlugin'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-gsap.registerPlugin(MotionPathPlugin, ScrollToPlugin, ScrollTrigger)
+gsap.registerPlugin(MotionPathPlugin, ScrollToPlugin, ScrollTrigger )
 //Load user controls
 import LoadHeader from '../userControls/header'
 import LoadFooter from '../userControls/footer'
@@ -42,6 +43,24 @@ class About extends Highway.Renderer {
             end:"+=2000",
             scrub:true
         })
+
+
+
+
+        
+gsap.set(".pathBall", {xPercent: -50, yPercent: -50, x: 0});
+
+var action = gsap.timeline({defaults: {duration: 1},
+  scrollTrigger: {
+    trigger: ".content-block",
+    endTrigger:"footer",
+    markers:true,
+    scrub: true,
+    start: "top center",
+    end: "bottom center"
+  }})
+  .fromTo(".pathLine", {drawSVG: "100% 100%"}, {drawSVG: "0% 100%"}, 0)
+.from(".pathBall", {motionPath: {path: ".pathLine",align:".pathLine", autoRotate:225, alignOrigin: [0.5, 0.5]}}, 0);
     }
 
     onLeave() {

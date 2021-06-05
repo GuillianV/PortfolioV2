@@ -42,3 +42,30 @@ html, body {
   -ms-box-sizing:border-box;
   -moz-box-sizing: border-box;
 }
+
+
+.svg-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+}
+
+#path{
+    fill-opacity:0;
+    stroke: black;
+    stroke-width: 0.1px;
+}
+svg{
+    max-width: 1886px;
+    overflow: visible;
+    margin-top: 0;
+  }
+
+  .pathBall{
+      width: 10px;
+      height: 10px;
+      z-index: 5000;
+  }
