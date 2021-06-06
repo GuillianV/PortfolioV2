@@ -1,5 +1,13 @@
 /* CONTENT */
 
+.width100{
+    width: 100% !important;
+}
+
+.width50{
+    width: 50% !important;
+}
+
 .content{
     z-index: 5000;
     width: 100vw;
@@ -32,6 +40,10 @@
 }
 
 
+.content-about{
+    width: 50%;
+    margin-bottom: 10%;
+}
 
 
 
@@ -131,6 +143,10 @@
 
 .block-Discovery{
     margin-top: 10vh;
+}
+
+.block-about{
+    width: 100%;
 }
 
 .block-Others{
@@ -342,6 +358,11 @@
         text-align: justify;
     }
 
+    .content-about{
+        width: 100%;
+        margin-bottom: 20%;
+    }
+
     /* BLOCKS */
 
     .block-h2{
@@ -367,6 +388,11 @@
     .block-Discovery{
         margin-top: 0;
     }
+
+    .block-about{
+        width: 100%;
+    }
+    
 
     .block-Others{
         height: 50vh;

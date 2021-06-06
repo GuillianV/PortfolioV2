@@ -53,8 +53,8 @@ class About extends Highway.Renderer {
         var action = gsap.timeline({
             defaults: { duration: 1 },
             scrollTrigger: {
-                trigger: ".content-block",
-                endTrigger: "footer",
+                trigger: ".parallax-bottom",
+                endTrigger: ".endcar",
                 markers: true,
                 scrub: true,
                 start: "top center",
@@ -63,7 +63,7 @@ class About extends Highway.Renderer {
             }
         })
             .fromTo(".pathLine", { drawSVG: "100% 100%" }, { drawSVG: "0% 100%" }, 0)
-            .from(".pathBall", { motionPath: { path: ".pathLine", opacity:1, align: ".pathLine", autoRotate: 20, alignOrigin: [0.5, 0.5] } }, 0)
+            .from(".pathBall", { motionPath: { path: ".pathLine", opacity:1, align: ".pathLine", autoRotate: -10,  alignOrigin: [0.5, 0.5] } }, 0)
            
        
     }

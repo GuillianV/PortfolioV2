@@ -52,48 +52,26 @@ html, body {
     height: 100vh;
     z-index: 3;
     pointer-events: none;
+    transform: translate(-20%);
 }
 
 #path{
     fill-opacity:0;
-    stroke: black;
-    stroke-width: 0.1px;
+
 }
-svg{
-
-    overflow: visible;
-    margin-top: 0;
-    
-
-  }
-
-  .pathLine{
-      position: absolute;
-
-  }
-
 
 
 
   .pathBall{
-      width: 10px;
-      height: 10px;
+      width: 10vw;
       z-index: 5000;
     
   }
 
   @media (max-width: 560px) {
    
-     
-    .svg{
-     
-        transform: translate(10px);
-        stroke-width: 0px;
-    }
 
     .pathBall{
-        width: 20px;
-        height: 20px;
-        z-index: 5000;
+        width: 20vw;
     }
 }
