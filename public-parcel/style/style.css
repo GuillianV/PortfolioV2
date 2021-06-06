@@ -51,6 +51,7 @@ html, body {
     width: 100vw;
     height: 100vh;
     z-index: 3;
+    pointer-events: none;
 }
 
 #path{
@@ -59,13 +60,40 @@ html, body {
     stroke-width: 0.1px;
 }
 svg{
-    max-width: 1886px;
+
     overflow: visible;
     margin-top: 0;
+    
+
   }
+
+  .pathLine{
+      position: absolute;
+
+  }
+
+
+
 
   .pathBall{
       width: 10px;
       height: 10px;
       z-index: 5000;
+    
   }
+
+  @media (max-width: 560px) {
+   
+     
+    .svg{
+     
+        transform: translate(10px);
+        stroke-width: 0px;
+    }
+
+    .pathBall{
+        width: 20px;
+        height: 20px;
+        z-index: 5000;
+    }
+}

@@ -50,6 +50,12 @@
     object-fit: cover;
     background-position: bottom center;
   }
+
+  .layer1{
+    background-position: top center !important;
+ 
+  
+  }
   
   .layer2{
     background-position: top center !important;
