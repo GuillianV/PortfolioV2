@@ -9,12 +9,14 @@ gsap.registerPlugin(MotionPathPlugin, ScrollToPlugin, ScrollTrigger)
 import LoadHeader from '../userControls/header'
 import LoadFooter from '../userControls/footer'
 import { MobileOverflow, MatchMedia, detectMob } from '../../detectmobile'
-
+import { LoadAbout } from '../../images'
 class About extends Highway.Renderer {
 
 
     onEnter() {
         //Javascript a lancer lorsque la page se charge
+      
+
     }
 
     onEnterCompleted() {
@@ -22,10 +24,13 @@ class About extends Highway.Renderer {
         let windowsWidth = MatchMedia();
         let IsMobile = detectMob();
 
-        MobileOverflow()
         LoadHeader()
+        LoadAbout()
         LoadFooter()
 
+        // MobileOverflow()
+        
+       
         const tl = gsap.timeline();
         tl.to(".layer1", 5, { y: -500 })
             .to(".layer2", 5, { y: -500 }, '-=5')
@@ -41,30 +46,33 @@ class About extends Highway.Renderer {
             markers: false,
             start: "top 50%",
             end: "+=2000",
-            scrub: true
+            scrub: true,
+            
         })
 
 
+        if(!IsMobile){
+            gsap.set(".pathBall", { xPercent: -50, yPercent: -50, x: 0 });
+
+            var action = gsap.timeline({
+                defaults: { duration: 1 },
+                scrollTrigger: {
+                    trigger: ".parallax-bottom",
+                    endTrigger: ".endcar",
+                    markers: true,
+                    scrub: true,
+                    start: "top center",
+                    end: "bottom center",
+            
+                }
+            })
+                .fromTo(".pathLine", { drawSVG: "100% 100%" }, { drawSVG: "0% 100%" }, 0)
+                .from(".pathBall", { motionPath: { path: ".pathLine", opacity:1, align: ".pathLine", autoRotate: -10,  alignOrigin: [0.5, 0.5] } }, 0)
+               
+        }
 
 
-
-        gsap.set(".pathBall", { xPercent: -50, yPercent: -50, x: 0 });
-
-        var action = gsap.timeline({
-            defaults: { duration: 1 },
-            scrollTrigger: {
-                trigger: ".parallax-bottom",
-                endTrigger: ".endcar",
-                markers: true,
-                scrub: true,
-                start: "top center",
-                end: "bottom center",
-        
-            }
-        })
-            .fromTo(".pathLine", { drawSVG: "100% 100%" }, { drawSVG: "0% 100%" }, 0)
-            .from(".pathBall", { motionPath: { path: ".pathLine", opacity:1, align: ".pathLine", autoRotate: -10,  alignOrigin: [0.5, 0.5] } }, 0)
-           
+  
        
     }
 

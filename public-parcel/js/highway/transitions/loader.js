@@ -64,6 +64,8 @@ function LoaderOut(loader){
         xPercent: -100,
         delay:2,
     });
+
+   
 }
 
 export { LoaderOut };

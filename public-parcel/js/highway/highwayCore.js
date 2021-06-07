@@ -49,9 +49,7 @@ class Router {
 
         });
 
-        if (this.core.properties.view.dataset.routerNocache) {
-            this.core.cache.delete(this.core.location.href);
-        }
+     
 
         //Viens chercher le wrapper sur la page
         this.wrap = document.querySelector("[data-router-wrapper]");

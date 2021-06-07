@@ -65,7 +65,7 @@ html, body {
   .pathBall{
       width: 10vw;
       z-index: 5000;
-    
+      /* background: url(../assets/icons/fenec.png) center center no-repeat; */
   }
 
   @media (max-width: 560px) {
