@@ -168,6 +168,13 @@
     width: 100%;
 }
 
+.block-about-image{
+    width: 100%;
+    object-fit: cover;
+    height: 30vh;
+    padding: 10px;
+}
+
 .block-Others{
     height: 40vw;
     flex: 2 1 auto;

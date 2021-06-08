@@ -28,7 +28,7 @@ class About extends Highway.Renderer {
         LoadAbout()
         LoadFooter()
 
-        // MobileOverflow()
+        MobileOverflow(false)
         
        
         const tl = gsap.timeline();

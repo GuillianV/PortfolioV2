@@ -60,9 +60,58 @@
                 {
                     "key": "Lagal-Mention",
                     "traduction": "Mentions Legales"
-                },{
+                },
+                {
                     "key": "Construction",
                     "traduction": "Page en construction"
+                },
+                {
+                    "key": "About-Intrudce-Title",
+                    "traduction": "Objectif de travail"
+                },
+                {
+                    "key": "About-Intrudce-text",
+                    "traduction": "Actuellement en licence professionnel DIM et alternant chez Boondooa, mon but est d’améliorer mes compétences en développement front-end et back-end. En tant que jeune designer , je peux apporter une nouvelle visions et de nouvelles créations de sites internet. Je suis aussi dans le développement orienté objet, C#, java, kotlin. Cela s’avère être utile lors de la création d’application mobile, de jeux ou bien d’autres."
+                },
+                {
+                    "key": "About-Misc-Title",
+                    "traduction": "Loisirs"
+                },
+                {
+                    "key": "About-Misc-Text",
+                    "traduction": "- J’adore faire du sport, comme de la gym, 3 fois par semaine. Du Street Workout 4 fois par mois<br>- Créer des scripts Autoit pour me faciliter la vie.<br>- Editer des images ou des vidéos, prendre des photos en drone ou avec un appareil.<br>- J’adore sociabiliser et travailler en équipe.<br>- J’ai le permis B.<br>- Je prends le temps d’apprécier la vie et j’utilise ce temps disponible pour améliorer mes compétences."
+                },
+                {
+                    "key": "About-Experiences-Title",
+                    "traduction": "Experiences"
+                },
+                {
+                    "key": "About-Experiences-text-1",
+                    "traduction": "2020-2021 - ( 1 ans ) – Boondooa – Annecy le vieux<br> Salarié dans une entreprise de création Web en tant que développeur back-end sur differents projets – Utilisation de la technoloie Aspx, C#, Js, css, et SQL MANAGEMENT"
+                },
+                {
+                    "key": "About-Experiences-text-2",
+                    "traduction": "2019 – 2020 ( 1 ans ) - Annotate Me – LISTIC – Annecy le vieux<br> Création d’un site web d’annotation pour allimenter un réseau neuronal de classification d’images – Utilisation du Framwork : Laravel"
+                },
+                {
+                    "key": "About-Experiences-text-3",
+                    "traduction": "2018 - 2019 ( 2 weeks ) Vacances d’hiver – Mairie – Albertville<br> Surveillance de la patinoire – location des patins"
+                },
+                {
+                    "key": "About-Experiences-text-4",
+                    "traduction": "2018 - 2019 ( 2 times 2 month ) - Vacances d’été – Les amis du Cinéma – Albertville<br> Controlleur des billets – technicien de surface – acceuil du public"
+                },
+                {
+                    "key": "About-Experiences-text-5",
+                    "traduction": "2016 - 2017 ( 2 times 2 month ) - Vacances d’été - Service Evènementiel – Mairie – Albertville<br> Distribution de flyers -acceuil du public à la cité médiévale de Conflans"
+                },
+                {
+                    "key": "About-Studies-Title",
+                    "traduction": "Formation"
+                },
+                {
+                    "key": "About-Studies-Text",
+                    "traduction": "2020-2021 – LP DIM (Développement informatique multi-supports) - IUT<br><br> Savoie Mont Blanc / CCI – Entreprise Boondooa – Annecy le vieux<br><br>  2018-2020 – DUT INFO – IUT Savoie Mont Blanc – Annecy le vieux<br><br> 2016- 2018 – Baccalauréat STI2D spécialité SIN - Science de l’Informatique et du Numérique – Mention assez bien – Lycée René Perrin – Ugine<br><br>  2014 – 2015 – Option DP3 : création d’une mini entreprise Responsable du service Communication"
                 }
             ]
         },
@@ -125,9 +174,58 @@
                 {
                     "key": "Lagal-Mention",
                     "traduction": "Legal Mentions"
-                },{
+                },
+                {
                     "key": "Construction",
                     "traduction": "Page under development"
+                },
+                {
+                    "key": "About-Intrudce-Title",
+                    "traduction": "Job objective"
+                },
+                {
+                    "key": "About-Intrudce-text",
+                    "traduction": "Job objective I am a second-year university student in computer science. My goal is to improve my programming skills and develop front-end and back-end skills. As an excellent designer, I can provide a new vision on websites, new creations! I am also a good developer, I can easily develop in c#, c++, c to make useful apps, games, and many other applications."
+                },
+                {
+                    "key": "About-Misc-Title",
+                    "traduction": "Miscellaneous"
+                },
+                {
+                    "key": "About-Misc-Text",
+                    "traduction": "- I love to play sports, like gym, 3 times a week. Street Workout 4 times a month.<br>- Create Autoit scripts to make my life easier.<br>- Edit images or videos, take photos with a drone or a camera.<br>- I love to socialize and work as a team.<br>- I have a driving license.<br>- I take the time to enjoy life and use this available time to improve my skills."
+                },
+                {
+                    "key": "About-Experiences-Title",
+                    "traduction": "Experiences"
+                },
+                {
+                    "key": "About-Experiences-text-1",
+                    "traduction": "2020-2021 - ( 1 years) – Boondooa – Annecy le vieux<br> Employee in a web creation company as a developer back-end on various projects – Use of the Aspx, C#, Js css, and SQL MANAGEMENT"
+                },
+                {
+                    "key": "About-Experiences-text-2",
+                    "traduction": "2019 – 2020 ( 1 years ) - Annotate Me – LISTIC – Annecy le vieux<br> Creation of an annotation website to ally a neural network of image classification – Use of Framwork: Laravel"
+                },
+                {
+                    "key": "About-Experiences-text-3",
+                    "traduction": "2018 - 2019 ( 2 weeks ) - Town hall - Albertville <br>Winter attraction park I supervised the ice rink, the sledges attraction.<br> I distributed ice skates to customers."
+                },
+                {
+                    "key": "About-Experiences-text-4",
+                    "traduction": "2018 - 2019 ( 2 times 2 month ) - Les Amis du Cinéma (Cultural organization) - Albertville <br> Movie theatre Summer job<br> - I supervised the entrance and cleaned the screening rooms<br> - Every morning, from 8 to 12, I cleaned the entire theatre.<br> In the afternoon, my goal was to check the customers’ tickets (4 times a day).<br>- I took care of the re-fill of the vending machine."
+                },
+                {
+                    "key": "About-Experiences-text-5",
+                    "traduction": "2016 - 2017 ( 2 times 2 month ) Town hall - Albertville, France<br> Communication department Summer job:<br> - Wednesdays, Thursdays and Fridays: I shared a lot of flyers in the local region (Savoie)<br> - Mondays and Tuesdays: I worked in a medieval city with a paladin costume. I Greeted tourists and explained them how the city works and was built.<br> - Saturdays and Sundays: I helped the town hall organize events like the Jazz festival."
+                },
+                {
+                    "key": "About-Studies-Title",
+                    "traduction": "Studies"
+                },
+                {
+                    "key": "About-Studies-Text",
+                    "traduction": "2020 - 2021 – LP DIM (Développement informatique multi-supports) - IUT<br> Savoie Mont Blanc / CCI – Boondooa Company – Annecy le vieux<br><br>  2018 - 2020 DUT INFO IUT- University of Savoie (USMB)– Annecy-France <br>2-year University technical diploma in computer engineering.<br> Topics: Web programming, POO (programming-oriented object), database (SQL, ORACLE)<br><br>2016 - 2018 Baccalaureat Technologique STI2D SIN<br> High School diploma specialized in science, technology and computer engineering.<br> With honors. Topics: network, physic, math, engineering.<br><br>  2014 – 2015 – Option DP3 : Mini company création. Leader of Communication services"
                 }
             ]
         }

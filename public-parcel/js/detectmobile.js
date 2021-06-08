@@ -17,14 +17,20 @@ function detectMob() {
 
 export {detectMob}
 
-function MobileOverflow() {
+function MobileOverflow(isActive = true) {
 
-    if (detectMob()) {
+    if (detectMob() && isActive) {
         var x = document.querySelector("html");
         x.style.overflowX = "hidden"
 
         var y = document.querySelector("body");
         y.style.overflowX = "hidden"
+    }else{
+        var x = document.querySelector("html");
+        x.style.overflowX = "initial"
+
+        var y = document.querySelector("body");
+        y.style.overflowX = "initial"
     }
 }
 
