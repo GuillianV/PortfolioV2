@@ -57,9 +57,9 @@ class About extends Highway.Renderer {
             var action = gsap.timeline({
                 defaults: { duration: 1 },
                 scrollTrigger: {
-                    trigger: ".parallax-bottom",
-                    endTrigger: ".endcar",
-                    markers: true,
+                    trigger: ".start-svg",
+                    endTrigger: ".end-svg",
+                    markers: false,
                     scrub: true,
                     start: "top center",
                     end: "bottom center",

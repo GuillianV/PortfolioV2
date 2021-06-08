@@ -87,31 +87,31 @@
                 },
                 {
                     "key": "About-Experiences-text-1",
-                    "traduction": "2020-2021 - ( 1 ans ) – Boondooa – Annecy le vieux<br> Salarié dans une entreprise de création Web en tant que développeur back-end sur differents projets – Utilisation de la technoloie Aspx, C#, Js, css, et SQL MANAGEMENT"
+                    "traduction": "2020-2021 - ( 1 ans ) – Boondooa – Annecy le vieux<br> Salarié dans une entreprise de création Web en tant que développeur back-end sur différents projets – Utilisation de la technoloie Aspx, C#, Js, css, et SQL MANAGEMENT"
                 },
                 {
                     "key": "About-Experiences-text-2",
-                    "traduction": "2019 – 2020 ( 1 ans ) - Annotate Me – LISTIC – Annecy le vieux<br> Création d’un site web d’annotation pour allimenter un réseau neuronal de classification d’images – Utilisation du Framwork : Laravel"
+                    "traduction": "2019 – 2020 ( 1 ans ) - Annotate Me – LISTIC – Annecy le vieux<br> Création d’un site web d’annotation pour alimenter un réseau neuronal de classification d’images – Utilisation du Framwork : Laravel"
                 },
                 {
                     "key": "About-Experiences-text-3",
-                    "traduction": "2018 - 2019 ( 2 weeks ) Vacances d’hiver – Mairie – Albertville<br> Surveillance de la patinoire – location des patins"
+                    "traduction": "2018 - 2019 ( 2 semaines ) Vacances d’hiver – Mairie – Albertville<br> Surveillance de la patinoire – location des patins"
                 },
                 {
                     "key": "About-Experiences-text-4",
-                    "traduction": "2018 - 2019 ( 2 times 2 month ) - Vacances d’été – Les amis du Cinéma – Albertville<br> Controlleur des billets – technicien de surface – acceuil du public"
+                    "traduction": "2018 - 2019 ( 2 fois 2 mois ) - Vacances d’été – Les amis du Cinéma – Albertville<br> Contrôleur des billets – technicien de surface – acceuil du public"
                 },
                 {
                     "key": "About-Experiences-text-5",
-                    "traduction": "2016 - 2017 ( 2 times 2 month ) - Vacances d’été - Service Evènementiel – Mairie – Albertville<br> Distribution de flyers -acceuil du public à la cité médiévale de Conflans"
+                    "traduction": "2016 - 2017 ( 2 fois 2 mois ) - Vacances d’été - Service Evènementiel – Mairie – Albertville<br> Distribution de flyers -acceuil du public à la cité médiévale de Conflans"
                 },
                 {
                     "key": "About-Studies-Title",
-                    "traduction": "Formation"
+                    "traduction": "Formations"
                 },
                 {
                     "key": "About-Studies-Text",
-                    "traduction": "2020-2021 – LP DIM (Développement informatique multi-supports) - IUT<br><br> Savoie Mont Blanc / CCI – Entreprise Boondooa – Annecy le vieux<br><br>  2018-2020 – DUT INFO – IUT Savoie Mont Blanc – Annecy le vieux<br><br> 2016- 2018 – Baccalauréat STI2D spécialité SIN - Science de l’Informatique et du Numérique – Mention assez bien – Lycée René Perrin – Ugine<br><br>  2014 – 2015 – Option DP3 : création d’une mini entreprise Responsable du service Communication"
+                    "traduction": "2020 - 2021 – LP DIM (Développement informatique multi-supports) - IUT<br><br> Savoie Mont Blanc / CCI – entreprise Boondooa – Annecy le vieux<br><br>  2018-2020 – DUT INFO – IUT Savoie Mont Blanc – Annecy le vieux<br><br> 2016- 2018 – Baccalauréat STI2D spécialité SIN - Science de l’informatique et du numérique – Mention assez bien – Lycée René Perrin – Ugine<br><br>  2014 – 2015 – Option DP3 : création d’une mini-entreprise Responsable du service communication"
                 }
             ]
         },
@@ -201,7 +201,7 @@
                 },
                 {
                     "key": "About-Experiences-text-1",
-                    "traduction": "2020-2021 - ( 1 years) – Boondooa – Annecy le vieux<br> Employee in a web creation company as a developer back-end on various projects – Use of the Aspx, C#, Js css, and SQL MANAGEMENT"
+                    "traduction": "2020-2021 - ( 1 years ) – Boondooa – Annecy le vieux<br> Employee in a web creation company as a developer back-end on various projects – Use of the Aspx, C#, Js css, and SQL MANAGEMENT"
                 },
                 {
                     "key": "About-Experiences-text-2",
@@ -221,7 +221,7 @@
                 },
                 {
                     "key": "About-Studies-Title",
-                    "traduction": "Studies"
+                    "traduction": "Education"
                 },
                 {
                     "key": "About-Studies-Text",

@@ -434,7 +434,9 @@
         margin-top: 0;
     }
 
-    
+    .block-about{
+        text-align: left !important;
+    }
     
 
     .block-Others{
