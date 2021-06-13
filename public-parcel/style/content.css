@@ -1,148 +1,16 @@
-/* CONTENT */
 
-.content{
-    z-index: 5000;
-    width: 100vw;
-    font-family: "JosefinSans-Bold";
+.align-center{
+    align-items: center !important;
 }
 
-
-
-
-.content-title{
-    position: relative;
-    text-align: center;
-    padding: 5vh;
-    font-size: 8vw;
-    word-break: break-all;
-}
-
-.content-block{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: stretch;
-    height: fit-content;
-    flex-wrap: wrap;
-   
-}
-
-.cb-vertical{
-    flex-direction: column;
-}
-
-.cb-translateY{
-
-    transform: translateY(10vh);
-   
-}
-
-.ct-100{
-    margin: 2.5%;
-    width: 95%;
-}
-
-.ct-50{
-    margin: 2.5%;
-    min-width: 45%;
-    width: 45%;
-    max-width: 95%;
-    flex-grow: 1;
-}
-
-.ct-33{
-    margin: 2.5%;
-    min-width: 27%;
-    width: 27%;
-    max-width: 95%;
-    flex-grow: 1;
-}
-
-
-
-.h2-title{
-    font-family: "JosefinSlab-Bold";
-    width: 100%;
-    text-align: center;
-    font-size: 3vw;
-}
-
-.h2-absolute{
-    transform: translateY(-3vh);
-    position: absolute;
-}
-
-
-
-/* BLOCKS */
-
-.block{
-    width: 50%;
-    z-index: 5200;
-    position: relative;
-}
-
-
-
-.block p{
-    font-family: "JosefinSlab-medium";
-    font-size: 2vw;
-    
-}
-
-.block-introduce{
-    margin-top: 10vh;
-    padding: 5%;
-}
-
-.block-Discovery{
-    margin-top: 10vh;
-}
-
-.block-about{
-    margin-top:0;
-    width: 100%;
-}
-
-.block-about-image{
-    width: 100%;
-    object-fit: cover;
-    height: 30vh;
-    padding: 10px;
-}
 
 .block-Others{
     height: 40vw;
     flex: 2 1 auto;
     margin: 5%;
-    width: 40%;
+    width: 40% !important;
 }
 
-.other-img{
-    transition: all 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-
-}
-
-.other-img-right{
-    transform-origin: bottom left;
-
-}
-
-
-.other-img-right:hover{
-
-    transform: scale(1.1) rotate(-5deg);
-}
-
-.other-img-left{
-    transform-origin: bottom right;
-
-}
-
-.other-img-left:hover{
-    
-    transform: scale(1.1) rotate(5deg);
-}
 
 .block-Others a{
     text-decoration: none;
@@ -151,16 +19,6 @@
 }
 
 
-
-.block-Others img{
-    z-index: 5300;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    top: 0;
-    transform-origin: bottom right;
-}
 
 .block-Others h3{
     z-index: 5400;
@@ -191,7 +49,64 @@
     z-index: 5100;
 }
 
+.tr-bottom-left{
+    transform-origin: bottom left;
+}
+
+.tr-bottom-left:hover{
+
+    transform: scale(1.1) rotate(-5deg) !important;
+}
+
+.tr-bottom-right{
+    transform-origin: bottom right;
+}
+
+
+.tr-bottom-right:hover{
+
+    transform: scale(1.1) rotate(5deg) !important;
+}
+
+
+
+/* SVG A PROPOS */
+.svg-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+    pointer-events: none;
+    transform: translate(-20%);
+}
+
+#path{
+    fill-opacity:0;
+
+}
+
+
+
+.pathBall{
+      width: 10vw;
+      z-index: 5000;
+      /* background: url(../assets/icons/fenec.png) center center no-repeat; */
+}
+
+
+.story{
+    padding: 2.5% !important;
+    margin-top: 10%;
+    
+}
 /* SWIPER */
+.swiper{
+    padding: 2.5% !important;
+    margin-top: 10%;
+    
+}
 
 .swiper-container-introduce{
     height: 100%;
@@ -203,246 +118,10 @@
 
 }
 
-.card-light{
-        box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
-}
-
-
 @media (max-width: 960px) {
-
-    /* CONTENT */
-
-    .content-title{
-        font-size: 10vw;
-    }
-
-    .cb-about{
-        flex-direction: column;
-    }
-
-
-
-    /* BLOCK */
-
-    .h2-absolute{
-        transform: translateY(-3vw);
-      
-    }
-
-    .h2-title{
-        font-size: 5vw;
-    }
-
- 
-    .block-fullsize{
-        width: 100%;
-    }
-    
-    .block p{
-        font-size: 3vw;
-    }
-
-    .block-introduce{
-        margin-top: 5vh;
-        padding: 5vh;
-    }
-
-    .block-Discovery{
-        margin-top: 10vh;
-        width: 70%;
-    }
-
-
-    .block-Others ::-webkit-scrollbar {
-        width: 2px;
-    }
-
-
-
-    .block-Others h3{
-        line-height: 15vw;
-    }
-
-    .block-Others p{
-        top:28%;
-    }
-
-    .story{
-        width: 40%;
-        
-    }
-    /* SWIPER */
-    .swiper{
-        width: 60%;
-        padding-left: 0vh;
-        
-    }
-
-    .swiper-slide{
-        height: 100% ;
-        object-fit: cover;
-    }
-    
-
-    .swiper-slide-Introduce img{
-        object-fit: cover;
-        height: 100%;
-        
- 
-    }
-    
-    .block-about{
-        margin-top:0;
-        width: 95%;
-    }
-
-
 }
+
+
 
 @media (max-width: 560px) {
-
-
-    /* CONTENT PART */
-
- 
-
-    .content-title{
-        font-size: 18vw;
-    }
-
-    .content-title-small{
-        font-size: 13vw;
-    }
-
-
-    .content-block{
-        flex-direction: column;
-    }
-
-
-    .content-block div{
-        width: 100%;
-        text-align: justify;
-    }
-
-
-    /* BLOCKS */
-
-    .h2-absolute{
-        transform: translateY(0);
-        position: relative;
-    }
-
-    .h2-title{
-        font-size: 5vh;
-    }
-
-
-    .block p{
-        font-size: 4.5vh;
-        margin:20px;
-    }
-
-    .block-introduce{
-        margin-top: 0;
-        padding: 0;
-    }
-
-    .block-Discovery{
-        margin-top: 0;
-    }
-
-    .block-about{
-        text-align: left !important;
-    }
-    
-
-    .block-Others{
-        height: 50vh;
-        width: auto !important;
-        margin: 20px;
-    }
-
-    .other-img{
-        
-        transform-origin: center center;
-    }
-
-    .other-img:hover{
-        
-        transform: scale(1.1);
-    }
-
-    .block-Others h3{
-        position: relative;
-        font-size: 6vh ;
-        margin-top: 2vh;
-        line-height: 15vh;
-    }
-
-    .block-Others img{
-        transform-origin: center center;
-    }
-
-    
-    .block-Others p{
-        position: relative;
-        padding: 1%;
-        top: 0;
-        margin: 0;
-        width: 99%;
-        height: 100%;
-        overflow: auto;
-        text-align: justify;
-    }
-    
-    .other1{
-        order: 2;
-        margin-bottom: 5vh;
-        
-    }
-
-    .other2{
-        
-        order: 1;
-        height: 100%;
-    }
-
-    .other3{
-        order: 3;
-        height: 100%;
-    }
-
-    .other4{
-        order: 4;
-        margin-bottom: 5vh;
-        
-    }
-
-    .other5{
-        order: 6;
-        margin-bottom: 5vh;
-    }
-
-    .other6{
-        order: 5;
-        height: 100%;
-    }
-
-    
-
-    .other7{
-        order: 7;
-        height: 100%;
-    }
-
-    .other8{
-        order: 8;
-        margin-bottom: 5vh;
-      
-    }
-
-
-
-
 }
