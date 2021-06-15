@@ -122,6 +122,48 @@
 
 }
 
+
+.bc-50-light{
+    background-color: var(--primary-color);
+}
+
+.bc-50-top{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bc-50-bot{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.swiper-projet-left{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+    z-index: 1;
+    background: url(../assets/icons/down-filled-triangular-arrow.svg) center center no-repeat;
+    width: 50px !important;
+    height: 50px;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.swiper-projet-right{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(-90deg);
+    z-index: 1;
+    background: url(../assets/icons/down-filled-triangular-arrow.svg) center center no-repeat;
+    width: 50px !important;
+    height: 50px;
+    background-size: cover;
+    cursor: pointer;
+}
+
 @media (max-width: 960px) {
 
     .cb-about{
@@ -143,11 +185,13 @@
         top:28%;
     }
 
-    .swiper-slide{
+
+    
+    .swiper-slide-Introduce{
         height: 100% ;
         object-fit: cover;
     }
-    
+
 
     .swiper-slide-Introduce img{
         object-fit: cover;

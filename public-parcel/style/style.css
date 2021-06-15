@@ -76,8 +76,20 @@ html, body {
    
 }
 
+.cb-scroll{
+    overflow: auto;
+}
+
+.cb-nowrap{
+    flex-wrap: nowrap;
+}
+
 .cb-vertical{
     flex-direction: column;
+}
+
+.cb-center{
+    align-items:center;
 }
 
 .cb-translateY{
@@ -165,6 +177,28 @@ html, body {
 .grow2{
     flex-grow: 2;
     width: auto;
+}
+
+.ct-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 15000;
+    transition: all 0.5s ease;
+    transform: scale(0);
+}
+
+.ct-fixed-background{
+    background-color: var(--secondary-color);
+    opacity: 0.8;
+    z-index: 14010 !important;
+}
+
+.ct-event-none{
+ 
+    pointer-events: none;
 }
 
 
