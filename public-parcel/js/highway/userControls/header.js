@@ -35,14 +35,7 @@ function LoadHeader() {
         opacity: 1
     });
 
-    //Image guillian-header
-    gsap.fromTo(".header-presentation-right span img", {
-        boxShadow: "none"
-
-    }, {
-        duration: 1,
-        boxShadow: "black 5px 5px",
-    });
+ 
 
    
 

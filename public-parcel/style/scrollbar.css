@@ -1,7 +1,7 @@
 /* Works on Firefox */
 * {
     scrollbar-width: thin;
-    scrollbar-color: white rgb(22, 22, 22);
+    scrollbar-color: var(--primary-color) var(--secondary-color);
   }
   
   /* Works on Chrome, Edge, and Safari */
@@ -11,20 +11,20 @@
   }
   
   *::-webkit-scrollbar-track {
-    background: black;
+    background: var(--secondary-color);
   }
   
   *::-webkit-scrollbar-thumb {
-    background-color: white;
+    background-color: var(--primary-color);
     border-radius: 20px;
-    border: 3px solid black;
+    border: 3px solid var(--secondary-color);
   }
 
 @media (max-width: 960px) {
   /* SCROLLBAR MOBILE*/
   * {
     scrollbar-width: thin;
-    scrollbar-color: white rgb(22, 22, 22);
+    scrollbar-color: var(--primary-color) var(--secondary-color);
   }
 
   
@@ -34,14 +34,14 @@
   }
 
   *::-webkit-scrollbar-track {
-    background: rgb(22, 22, 22);
+    background: var(--secondary-color);
     
   }
 
   *::-webkit-scrollbar-thumb {
-    background-color: white;
+    background-color: var(--primary-color);
     border-radius: 20px;
-    border: 1px solid white;
+    border: 1px solid var(--primary-color);
   }
 }
 
@@ -50,7 +50,7 @@
 /* SCROLLBAR MOBILE*/
   * {
     scrollbar-width: thin;
-    scrollbar-color: white rgb(22, 22, 22);
+    scrollbar-color: var(--primary-color) var(--secondary-color);
   }
   
    
@@ -60,14 +60,14 @@
   }
   
   *::-webkit-scrollbar-track {
-    background: rgb(22, 22, 22);
+    background: var(--secondary-color);
     
   }
   
   *::-webkit-scrollbar-thumb {
-    background-color: white;
+    background-color: var(--primary-color);
     border-radius: 20px;
-    border: 1px solid white;
+    border: 1px solid var(--primary-color);
   }
 
 }

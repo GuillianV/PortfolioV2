@@ -41,8 +41,8 @@
   }
 
   .layer6{
-      border-bottom: 5px black solid;
-    box-shadow: 0px 5px 5px black;
+      border-bottom: 5px var(--secondary-color) solid;
+    box-shadow: 0px 5px 5px var(--secondary-color);
     z-index: 2;
   }
   
@@ -51,7 +51,7 @@
     top: 99.9%;
     left: 0;
     width: 100%;
-    background: white;
+    background: var(--primary-color);
     height: 100%;
     z-index: 1;
   }

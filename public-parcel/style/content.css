@@ -11,10 +11,14 @@
     width: 40% !important;
 }
 
+.bo-img{
+    z-index: 5500 !important;
+
+}
 
 .block-Others a{
     text-decoration: none;
-    color: black;
+    color: var(--secondary-color);
     text-align: center;
 }
 
@@ -119,9 +123,131 @@
 }
 
 @media (max-width: 960px) {
+
+    .cb-about{
+        flex-direction: column;
+    }
+
+    
+    .block-Others ::-webkit-scrollbar {
+        width: 2px;
+    }
+
+
+
+    .block-Others h3{
+        line-height: 15vw;
+    }
+
+    .block-Others p{
+        top:28%;
+    }
+
+    .swiper-slide{
+        height: 100% ;
+        object-fit: cover;
+    }
+    
+
+    .swiper-slide-Introduce img{
+        object-fit: cover;
+        height: 100%;
+        
+ 
+    }
+
 }
 
 
 
 @media (max-width: 560px) {
+
+    .block-about{
+        text-align: left !important;
+    }
+    
+
+    .block-Others{
+        height: 50vh;
+        width: auto !important;
+        margin: 20px;
+    }
+
+    
+    .block-Others h3{
+        position: relative;
+        font-size: 6vh ;
+        margin-top: 2vh;
+        line-height: 15vh;
+    }
+
+    .block-Others img{
+        transform-origin: center center;
+    }
+
+    
+    .block-Others p{
+        position: relative;
+        padding: 1%;
+        top: 0;
+        margin: 0;
+        width: 99%;
+        height: 100%;
+        overflow: auto;
+
+    }
+
+
+    
+    .other1{
+        order: 2;
+        margin-bottom: 5vh;
+        
+    }
+
+    .other2{
+        
+        order: 1;
+        height: 100%;
+    }
+
+    .other3{
+        order: 3;
+        height: 100%;
+    }
+
+    .other4{
+        order: 4;
+        margin-bottom: 5vh;
+        
+    }
+
+    .other5{
+        order: 6;
+        margin-bottom: 5vh;
+    }
+
+    .other6{
+        order: 5;
+        height: 100%;
+    }
+
+    
+
+    .other7{
+        order: 7;
+        height: 100%;
+    }
+
+    .other8{
+        order: 8;
+        margin-bottom: 5vh;
+      
+    }
+
+    .pathBall{
+        width: 20vw;
+    }
+
+
 }

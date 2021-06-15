@@ -17,13 +17,13 @@
     align-self: center;
     text-decoration: none;
     list-style-type: none;
-    background: linear-gradient(to left,white 50%, rgb(22, 22, 22) 50% ) right no-repeat;
+    background: linear-gradient(to left,var(--primary-color) 50%, var(--secondary-color) 50% ) right no-repeat;
     background-size: 200%;
     transition: .5s cubic-bezier(.53,.21,0,1);
     will-change: transform;
     padding: 1%;
-    border-left: rgb(22, 22, 22) 2px solid;
-    border-right: rgb(22, 22, 22) 2px solid;
+    border-left: var(--secondary-color) 2px solid;
+    border-right: var(--secondary-color) 2px solid;
 
     
 }
@@ -38,7 +38,7 @@
     mix-blend-mode: difference;
     text-decoration: none;
     font-size: 1.5em;
-    color: white;    
+    color: var(--primary-color);    
 }
 
 
@@ -67,7 +67,7 @@
         mix-blend-mode: difference;
         text-decoration: none;
         font-size: 2.5vw;
-        color: white;    
+        color: var(--primary-color);    
     }
 
 }
@@ -83,8 +83,8 @@
     .nav-main ul li{
         margin-top: 4%;
         margin-bottom: 4%;
-        border-right: rgb(22, 22, 22) 2px solid;
-        border-left: rgb(22, 22, 22) 2px solid;
+        border-right: var(--secondary-color) 2px solid;
+        border-left: var(--secondary-color) 2px solid;
         
         
     }

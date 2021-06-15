@@ -1,8 +1,8 @@
 /* HEADER */
 
 header{
-    color: white;
-    text-shadow: rgb(22, 22, 22) 5px 5px ;
+    color: var(--primary-color);
+    text-shadow: var(--secondary-color) 5px 5px ;
     font-family: "JosefinSans-Bold";
     background: url("../assets/img/header-bg.png") fixed;
     width: 100vw;
@@ -11,7 +11,7 @@ header{
     background-size: cover;
     z-index: 10000;
     word-break: initial;
-    border-bottom:rgb(22, 22, 22) 5px solid;
+    border-bottom:var(--secondary-color) 5px solid;
     margin-bottom: 3%;
 }
 
@@ -23,7 +23,7 @@ header{
     right: 50%;
     transform: translate(-50%,-70%);
     top: 0;
-    background-color: white;
+    background-color: var(--primary-color);
     width: 150px;
     height: 150px;
     border-bottom-left-radius: 50%;
@@ -99,7 +99,8 @@ header{
 
 .header-lang div{
     text-align: center;
-    text-shadow: rgb(22, 22, 22) 2px 2px;
+    text-shadow:  var(--secondary-color) 2px 2px;
+    color:var(--primary-color) ;
     width: 50%;
     height: 100%;
     margin: 15%;
@@ -108,7 +109,7 @@ header{
 
 .header-lang div a{
    text-decoration: none;
-   color: white ;
+   color: var(--primary-color) ;
 }
 
 
@@ -148,7 +149,7 @@ header{
     letter-spacing: 0.3em;
     line-height: 1em;
     text-align: center;
- 
+    color: var(--primary-color);
 }
 
 .header-presentation-left-vibert{
@@ -188,8 +189,8 @@ header{
     background-repeat: no-repeat;
     height: 100%;
     border-radius: 50%;
-    border: white 5px solid;
-    box-shadow: rgb(22, 22, 22) 5px 5px;
+    border: var(--primary-color) 5px solid;
+    box-shadow: var(--secondary-color) 5px 5px;
     pointer-events: none;
 }
 
@@ -260,7 +261,7 @@ header{
 @media (max-width: 560px) {
 
     header{
-        border-bottom:rgb(22, 22, 22) 2px solid;
+        border-bottom:var(--secondary-color) 2px solid;
     }
 
     .header-lang{

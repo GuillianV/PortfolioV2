@@ -1,10 +1,10 @@
 footer{
     bottom: 0;
     margin-top: 10vh;
-    background-color: var(--dark-grey-couleur);
+    background-color: var(--secondary-color);
   
     font-family: "JosefinSans-Medium";
-    color: var(--white-couleur);
+    color: var(--primary-color);
     text-align: center;  
 }
 
@@ -15,7 +15,7 @@ footer div{
 footer a{
     text-decoration: none;
     width: 20px;
-    color: var(--white-couleur);
+    color: var(--primary-couleur);
     border-style: none !important;
     outline:none;
 }
