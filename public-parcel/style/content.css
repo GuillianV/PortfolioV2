@@ -137,6 +137,17 @@
     border-bottom-right-radius: 10px;
 }
 
+.ct-fixed-cross{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(../assets/icons/close.svg) center center no-repeat;
+    background-size: cover;
+    width: 50px !important;
+    height: 50px;
+    margin: 5%;
+    cursor: pointer;
+}
 
 .swiper-projet-left{
     position: absolute;
