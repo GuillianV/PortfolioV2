@@ -112,6 +112,74 @@
                 {
                     "key": "About-Studies-Text",
                     "traduction": "2020 - 2021 – LP DIM (Développement informatique multi-supports) - IUT<br><br> Savoie Mont Blanc / CCI – entreprise Boondooa – Annecy le vieux<br><br>  2018-2020 – DUT INFO – IUT Savoie Mont Blanc – Annecy le vieux<br><br> 2016- 2018 – Baccalauréat STI2D spécialité SIN - Science de l’informatique et du numérique – Mention assez bien – Lycée René Perrin – Ugine<br><br>  2014 – 2015 – Option DP3 : création d’une mini-entreprise Responsable du service communication"
+                }, 
+                {
+                    "key": "Projects-Intrudce-Title",
+                    "traduction": "Mes projets"
+                },
+                {
+                    "key": "Projects-Intrudce-Text",
+                    "traduction": "Catégorie mes projets. Dans cet espace, vous pouvez retrouver la plupart de mes gros projets. Informatiques ou non."
+                },
+                {
+                    "key": "Projects-Experiences-Title-1",
+                    "traduction": "Autoit"
+                },
+                {
+                    "key": "Projects-Experiences-Desc-1",
+                    "traduction": "Projects-Experiences-Desc-1"
+                },
+                {
+                    "key": "Projects-Experiences-Tech-1",
+                    "traduction": "Technologie Utilisé : Autoit"
+                },
+                {
+                    "key": "Projects-Experiences-Title-2",
+                    "traduction": "Dash Raider"
+                },
+                {
+                    "key": "Projects-Experiences-Desc-2",
+                    "traduction": "Projects-Experiences-Desc-2"
+                },
+                {
+                    "key": "Projects-Experiences-Tech-2",
+                    "traduction": "Technologie Utilisé : Unity, C#"
+                },
+                {
+                    "key": "Projects-Experiences-Title-3",
+                    "traduction": "Portfolio"
+                },
+                {
+                    "key": "Projects-Experiences-Desc-3",
+                    "traduction": "Projects-Experiences-Desc-3"
+                },
+                {
+                    "key": "Projects-Experiences-Tech-3",
+                    "traduction": "Technologie Utilisé : javascript, nodejs, html ,css"
+                },
+                {
+                    "key": "Projects-Experiences-Title-4",
+                    "traduction": "Space DIM"
+                },
+                {
+                    "key": "Projects-Experiences-Desc-4",
+                    "traduction": "Projects-Experiences-Desc-4"
+                },
+                {
+                    "key": "Projects-Experiences-Tech-4",
+                    "traduction": "Technologie Utilisé : Kotlin, Android Studio"
+                },
+                {
+                    "key": "Projects-Experiences-Title-5",
+                    "traduction": "2D Project"
+                },
+                {
+                    "key": "Projects-Experiences-Desc-5",
+                    "traduction": "Projects-Experiences-Desc-5"
+                },
+                {
+                    "key": "Projects-Experiences-Tech-5",
+                    "traduction": "Technologie Utilisé : Unity, NodeJs, C#, Javascript"
                 }
             ]
         },
@@ -226,6 +294,74 @@
                 {
                     "key": "About-Studies-Text",
                     "traduction": "2020 - 2021 – LP DIM (Développement informatique multi-supports) - IUT<br> Savoie Mont Blanc / CCI – Boondooa Company – Annecy le vieux<br><br>  2018 - 2020 DUT INFO IUT- University of Savoie (USMB)– Annecy-France <br>2-year University technical diploma in computer engineering.<br> Topics: Web programming, POO (programming-oriented object), database (SQL, ORACLE)<br><br>2016 - 2018 Baccalaureat Technologique STI2D SIN<br> High School diploma specialized in science, technology and computer engineering.<br> With honors. Topics: network, physic, math, engineering.<br><br>  2014 – 2015 – Option DP3 : Mini company création. Leader of Communication services"
+                },
+                {
+                    "key": "Projects-Intrudce-Title",
+                    "traduction": "Projects"
+                },
+                {
+                    "key": "Projects-Intrudce-Text",
+                    "traduction": "Project part. On this page, you can discover more about my professional or personal projects !"
+                },
+                {
+                    "key": "Projects-Experiences-Title-1",
+                    "traduction": "Autoit"
+                },
+                {
+                    "key": "Projects-Experiences-Desc-1",
+                    "traduction": " I decided to start programming scripts. This was useful for some games. Automation (operation repetition), has interaction with the keyboard. I was able to make scripts that allowed me to move faster on some games. Some people will take this as cheating, but personally, I find the fact of forming its program as research and intelligence compared to people who do not"
+                },
+                {
+                    "key": "Projects-Experiences-Tech-1",
+                    "traduction": "Technology Used : Autoit"
+                },
+                {
+                    "key": "Projects-Experiences-Title-2",
+                    "traduction": "Dash Raider"
+                },
+                {
+                    "key": "Projects-Experiences-Desc-2",
+                    "traduction": "DashRaider is mainly a puzzle/action game. In DashRaider you play the raider, your goal is to go through the dungeon, by completing every room by dashing. Be aware however, that your number of dashes are limited, and so is your health. The dungeon has many three floors with five rooms each for you to explore and complete."
+                },
+                {
+                    "key": "Projects-Experiences-Tech-2",
+                    "traduction": "Technology Used : Unity, C#"
+                },
+                {
+                    "key": "Projects-Experiences-Title-3",
+                    "traduction": "Portfolio"
+                },
+                {
+                    "key": "Projects-Experiences-Desc-3",
+                    "traduction": "My PortFolio is my personal webSite. I worked hard on this project, the goal being to complete my online resume. I created four sections to distinguish: about me, my skills, my projects, and ways to contact me. I used a lot of new librairies like highway js, gsap and swiper for more interaction. 100% Responsive !"
+                },
+                {
+                    "key": "Projects-Experiences-Tech-3",
+                    "traduction": "Technology Used : javascript, nodejs, html ,css"
+                },
+                {
+                    "key": "Projects-Experiences-Title-4",
+                    "traduction": "Space DIM"
+                },
+                {
+                    "key": "Projects-Experiences-Desc-4",
+                    "traduction": "This is a university project carried out in LPDIM. This is a multiplayer mobile game (websocket) on android. Made by 4 studients including me. The project was difficult cause of adding new programming language and new environment like Android Studio."
+                },
+                {
+                    "key": "Projects-Experiences-Tech-4",
+                    "traduction": "Technology Used : Kotlin, Android Studio"
+                },
+                {
+                    "key": "Projects-Experiences-Title-5",
+                    "traduction": "2D Project"
+                },
+                {
+                    "key": "Projects-Experiences-Desc-5",
+                    "traduction": "This is a personal project. I always want to create an online game. For my project, I try to build node Js Server with unity client. For this i used socketio to create a connection between NodeJs and Unity."
+                },
+                {
+                    "key": "Projects-Experiences-Tech-5",
+                    "traduction": "Technology Used : Unity, NodeJs, C#, Javascript"
                 }
             ]
         }

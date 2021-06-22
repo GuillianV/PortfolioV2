@@ -2,11 +2,13 @@ import Highway from '@dogstudio/highway'
 import gsap from 'gsap';
 import * as Swiper from 'swiper'
 import { Navigation } from 'swiper';
+import { Autoplay } from 'swiper';
 
-Swiper.Swiper.use([Navigation]);
+Swiper.Swiper.use([Navigation,Autoplay]);
 
 //Load user controls
 import LoadHeader from '../userControls/header'
+import { LoadProjects } from '../../images'
 import LoadFooter from '../userControls/footer'
 import { MobileOverflow, MatchMedia, detectMob } from '../../detectmobile'
 
@@ -24,102 +26,101 @@ class Projects extends Highway.Renderer {
 
         MobileOverflow()
         LoadHeader()
+        LoadProjects()
         LoadFooter()
 
-        //SWIPER INTRODUCE
-        var swiperProjects = new Swiper.Swiper('.swiper-Projects', {
+        //SWIPER AUTOIT
+        var swiperAutoit = new Swiper.Swiper('.swiper-Autoit', {
             init: false,
             slidesPerView: 1,
-            effect: 'fade',
-            fadeEffect: { crossFade: true },
+            loop:true,
             spaceBetween: 30,
             grabCursor: true,
-            observer: true,
-            observeParents: true,
             speed: 600,
             navigation: {
-                nextEl: '.swiper-projet-right',
-                prevEl: '.swiper-projet-left',
-            },
+                nextEl: '.swiper-projet-right-Autoit',
+                prevEl: '.swiper-projet-left-Autoit',
+            },autoplay: {
+                delay:2000,
+            }
 
         })
+        swiperAutoit.init()
+
+          //SWIPER DASHRAIDER
+          var swiperDash = new Swiper.Swiper('.swiper-Dashraider', {
+            init: false,
+            slidesPerView: 1,
+            loop:true,
+            spaceBetween: 30,
+            grabCursor: true,
+            speed: 600,
+            navigation: {
+                nextEl: '.swiper-projet-right-Dashraider',
+                prevEl: '.swiper-projet-left-Dashraider',
+            },autoplay: {
+                delay:2100,
+            }
+
+        })
+        swiperDash.init()
 
 
-        let experiences = document.querySelectorAll('[data-experiences-popup]')
-        for (let experience of experiences) {
-            experience.addEventListener("click", function () {
-                
-                let fixed = document.querySelectorAll(".ct-fixed")
-                for (let fix of fixed) {
-                    fix.style.transform = "scale(1)"
+           //SWIPER Portfolio
+           var swiperPortfolio = new Swiper.Swiper('.swiper-Portfolio', {
+            init: false,
+            slidesPerView: 1,
+            loop:true,
+            spaceBetween: 30,
+            grabCursor: true,
+            speed: 600,
+            navigation: {
+                nextEl: '.swiper-projet-right-Portfolio',
+                prevEl: '.swiper-projet-left-Portfolio',
+            },autoplay: {
+                delay:2200,
+            }
+
+        })
+        swiperPortfolio.init()
+
+
+          //SWIPER SpaceDim
+          var SpaceDim = new Swiper.Swiper('.swiper-SpaceDim', {
+            init: false,
+            slidesPerView: 1,
+            loop:true,
+            spaceBetween: 30,
+            grabCursor: true,
+            speed: 600,
+            navigation: {
+                nextEl: '.swiper-projet-right-SpaceDim',
+                prevEl: '.swiper-projet-left-SpaceDim',
+            },autoplay: {
+                delay:2300,
+            }
+
+        })
+        SpaceDim.init()
+        
+
+            //SWIPER SpaceDim
+            var Project2d = new Swiper.Swiper('.swiper-Project2d', {
+                init: false,
+                slidesPerView: 1,
+                loop:true,
+                spaceBetween: 30,
+                grabCursor: true,
+                speed: 600,
+                navigation: {
+                    nextEl: '.swiper-projet-right-Project2d',
+                    prevEl: '.swiper-projet-left-Project2d',
+                },autoplay: {
+                    delay:2400,
                 }
-
-               
-                if (experience.dataset.experiencesPopup == "autoit") {
-
-                    let imgs = [
-                        require("../../../assets/img/header-bg.png"),
-                        require("../../../assets/img/guillian-back.png"),
-                        require("../../../assets/icons/fenec.png"),
-                    ]
-                    LoadCtPopup(imgs,experience.dataset.experiencesPopup)
-                }
-
-                
-
-               
-            });
-        }
-
-
-        function LoadCtPopup(images,dataset){
-            let wrapper = document.querySelector(".swiper-wrapper");
-            wrapper.innerHTML = "";
-
-
-
-            for (let img of images) {
-                var newDiv = document.createElement("div");
-                newDiv.classList.add("swiper-slide");
-                var newImg = document.createElement("img");
-                newImg.classList.add("image-cover")
-                newDiv.appendChild(newImg)
-                newImg.src = img
-                wrapper.appendChild(newDiv)
-            }
-
-            let eleme = document.querySelectorAll("[data-experiences-popup-"+dataset+"]")
-            let title = document.querySelector("#popup-title")
-            let desc = document.querySelector("#popup-description")
-            let tech = document.querySelector("#popup-technologie")
-            
-            for(let elem of eleme){
-               if(elem.dataset.popupTitle == "popup-title"){
-                title.innerHTML = elem.innerHTML
-               }
-               if(elem.dataset.popupTitle == "popup-description"){
-                desc.innerHTML = elem.innerHTML
-               }
-               if(elem.dataset.popupTitle == "popup-technologie"){
-                tech.innerHTML = elem.innerHTML
-               }
-            }
-            swiperProjects.init()
-        }
-
-
-
-
-        let ct_cross = document.querySelector('.ct-fixed-cross')
-
-        ct_cross.addEventListener("click", function () {
-            let fixed = document.querySelectorAll(".ct-fixed")
-            for (let fix of fixed) {
-                fix.style.transform = "scale(0)"
-            }
-        });
-
-
+    
+            })
+            Project2d.init()
 
     }
 
