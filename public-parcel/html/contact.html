@@ -9,15 +9,204 @@
 </head>
 
 <body>
+      <!-- Loader -->
+      <div class="loader" id="loader">
+        <span class="loader-top">
+    
+    
+        </span>
+        <span class="loader-middle">
+          <svg class="loader-middle-svg" viewBox="0 0 210 210">
+            <circle class="loader-middle-round" cx="105" cy="105" r="100" />
+          </svg>
+          <div class="loader-middle-GVV">
+            <div class="loader-middle-G">
+              G
+            </div>
+            <div class="loader-middle-V">
+              V
+            </div>
+            <div class="loader-middle-V2">
+              V
+            </div>
+          </div>
+        </span>
+        <span class="loader-bot">
+    
+        </span>
+      </div>
+      <!-- Header -->
+      <header>
+        <div class="header-menu">
+          <div class="header-menu-back">
+            <a href="/fr/">
+              <img src="../assets/icons/home.svg">
+            </a>
+          </div>
+          <span>
+            <img src="../assets/icons/down-arrow.svg">
+          </span>
+        </div>
+        <div class="header-lang">
+          <div class="header-lang-fr">
+            <a href="/fr/">FR</a>
+    
+          </div>
+          <div class="header-lang-en">
+            <a href="/en/">EN</a>
+    
+          </div>
+        </div>
+        <div class="header-presentation" id="header-presentation-container">
+          <div class="header-presentation-left">
+            <span class="header-presentation-left-vibert">VIBERT-</span><br>
+            <span class="header-presentation-left-vallet">VALLET</span><br>
+            <span class="header-presentation-left-guillian">GUILLIAN</span>
+          </div>
+          <div class="header-presentation-right">
+            <span>
+              <img class="header-presentation-right-img" alt="Vibert-Vallet GUillian"
+                src="../assets/img/header-guillian.png">
+            </span>
+          </div>
+        </div>
+      </header>
+    
+      <!-- Navigation bar -->
+      <nav class="nav-main">
+        <ul>
+          <li>
+            <a data-traduction="Nav-Home" href="/fr/">Home</a>
+          </li>
+          <li>
+            <a data-traduction="Nav-About" href="about/fr/">About</a>
+          </li>
+          <li>
+            <a data-traduction="Nav-Skills" href="skills/fr/">Skills</a>
+          </li>
+          <li>
+            <a data-traduction="Nav-Projects" href="projects/fr/">Projcts</a>
+          </li>
+          <li>
+            <a data-traduction="Nav-Contact" href="contact/fr/">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
       <main data-router-wrapper>
           <section data-router-view="Contact" class="contact">
-            <div class="contact-content">
-              <div data-traduction="Construction" class="Construction">
-                Site En Construction
+            <div class="contact-content content-block">
+              <div class="content-block cb-vertical card-light ct-33" >
+                <h2 class="h2-title" data-upper="true" data-traduction="Contact-Data" >Personal data</h2>
+                <div class="block-100">
+                  <p>
+                    <a class="href-none" href="mailto:guillianvibert90@gmail.com" data-traduction="Contact-mail" >Envoyez moi un mail !</a>
+                  </p>
+                  <p>
+                    (+33)7 70 75 43 25
+                  </p>
+                  <p data-traduction="Contact-street">
+                    Rue
+                  </p>
+                  <p >
+                    <a target="_blank" class="href-none downloadCV" data-traduction="Contact-CV">Telechargez mon CV !</a>
+                    
+                  </p>
+                </div>
               </div>
+              <div class="content-block cb-vertical card-light ct-33" >
+
+                <h2 class="h2-title" data-upper="true" data-traduction="Contact-Social" >My social networks</h2>
+                <div class="block-100 Contact-ct">
+
+                  <p>
+                    Facebook
+                  </p>
+                  <a class="crosslink-href" href="https://www.facebook.com/guillian.vibert.5" target="_blank">
+                    <span>
+                    <img src="../assets/icons/blank.png"  class="crosslink-Facebook" alt="Facebook">
+                  </span>
+                  </a><br><br>
+                  <p>
+                    Instagram
+                  </p>
+                  
+                <a class="crosslink-href" href="https://www.instagram.com/guillian_vibert/" target="_blank">
+                  <span>
+                  <img class="crosslink-Instagram" src="../assets/icons/blank.png" alt="Instagram">
+                </span>
+                </a><br><br>
+                <p>
+                  Linkedin
+                </p>
+                <a class="crosslink-href" href="https://www.linkedin.com/in/guillian-vibert-vallet-790320182/" target="_blank">
+                  <span>
+                  <img class="crosslink-Linkedin " src="../assets/icons/blank.png" alt="Linkedin">
+                </span>
+                </a><br><br>
+                <p>
+                  GitHub
+                </p>
+                <a class="crosslink-href" href="https://github.com/GuillianV" target="_blank">
+                  <span>
+                  <img class="crosslink-github " src="../assets/icons/blank.png" alt="Linkedin">
+                </span>
+                </a> <br><br>
+                </div>
+              </div>
+              <div class="content-block cb-vertical card-light ct-33" >
+                
+                <h2 class="h2-title" data-upper="true" data-traduction="Contact-References" >References</h2>
+                <div class="block-100">
+                  
+                  <p class="text-align-center">
+                    <strong data-traduction="Contact-References-Title-1">M. Colin</strong>
+                 </p>
+                  <p class="text-align-center" data-traduction="Contact-References-Text-1">
+                    Database teacher, IUT ANNECY USMB. pascal.colin@univ-savoie.fr
+                 </p>
+                </div>
+                <div class="block-100">
+                  <p class="text-align-center">
+                    <strong data-traduction="Contact-References-Title-2">Ms. Bouchon</strong>
+                 </p>
+                  <p class="text-align-center" data-traduction="Contact-References-Text-2">
+                    English teacher, IUT ANNECY USMB. stephanie.bouchon@univ-savoie.fr
+                 </p>
+                </div>
+                <div class="block-100">
+                  
+                </div>
+              </div>
+
             </div>
           </section>
         </main>
+        
+        <footer>
+          <div>
+            <p>&copy; All rights reserved Vibert-Vallet Guillian - <a href="/mentions-legales/fr/" data-traduction="Lagal-Mention" >Mentions légales</a></p>
+          </div>
+          <div class="block-footer" > 
+              <a href="https://www.facebook.com/guillian.vibert.5" target="_blank">
+                  <img src="../assets/icons/blank.png"  class="crosslink-Facebook" alt="Facebook">
+              </a>
+              <a href="https://www.instagram.com/guillian_vibert/" target="_blank">
+                <img class="crosslink-Instagram" src="../assets/icons/blank.png" alt="Instagram">
+              </a>
+              <a href="https://www.linkedin.com/in/guillian-vibert-vallet-790320182/" target="_blank">
+                <img class="crosslink-Linkedin" src="../assets/icons/blank.png" alt="Linkedin">
+              </a>
+              <a href="https://github.com/GuillianV" target="_blank">
+                <img class="crosslink-github" src="../assets/icons/blank.png" alt="Linkedin">
+              </a>
+              <a href="contact/fr/">
+                <img class="crosslink-contact" src="../assets/icons/blank.png" alt="More info">
+              </a>  
+          </div>
+        </footer>
+      
+        <script src="../js/highway/highwayCore.js"></script>
 </body>
 
 </html>

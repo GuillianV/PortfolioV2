@@ -38,5 +38,13 @@ function LoadProjects (){
 
 }
 
+function LoadContact (){
+    
+    document.querySelector(".crosslink-Facebook ").src =  require("../assets/icons/blank.png")
+    document.querySelector(".crosslink-Instagram ").src =  require("../assets/icons/blank.png")
+    document.querySelector(".crosslink-Linkedin ").src =  require("../assets/icons/blank.png")
+    document.querySelector(".crosslink-github ").src =  require("../assets/icons/blank.png")
 
-export {LoadAbout,LoadProjects}
+}
+
+export {LoadAbout,LoadProjects,LoadContact}

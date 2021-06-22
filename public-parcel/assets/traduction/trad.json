@@ -180,6 +180,46 @@
                 {
                     "key": "Projects-Experiences-Tech-5",
                     "traduction": "Technologie Utilisé : Unity, NodeJs, C#, Javascript"
+                },
+                {
+                    "key": "Contact-Data",
+                    "traduction": "Données personnels"
+                },
+                {
+                    "key": "Contact-Social",
+                    "traduction": "Résaux sociaux"
+                },
+                {
+                    "key": "Contact-References",
+                    "traduction": "References"
+                },
+                {
+                    "key": "Contact-street",
+                    "traduction": "1 Rue président coty Albertville France 73200"
+                },
+                {
+                    "key": "Contact-mail",
+                    "traduction": "Envoyez moi un mail !"
+                },
+                {
+                    "key": "Contact-CV",
+                    "traduction": "Téléchargez mon CV !"
+                },
+                {
+                    "key": "Contact-References-Title-1",
+                    "traduction": "M. Colin"
+                },
+                {
+                    "key": "Contact-References-Text-1",
+                    "traduction": "Professeur de base de donées, IUT ANNECY USMB. pascal.colin@univ-savoie.fr"
+                },
+                {
+                    "key": "Contact-References-Title-2",
+                    "traduction": "Mme. Bouchon"
+                },
+                {
+                    "key": "Contact-References-Text-2",
+                    "traduction": "Professeur d'Anglais, IUT ANNECY USMB. stephanie.bouchon@univ-savoie.fr"
                 }
             ]
         },
@@ -362,6 +402,46 @@
                 {
                     "key": "Projects-Experiences-Tech-5",
                     "traduction": "Technology Used : Unity, NodeJs, C#, Javascript"
+                },
+                {
+                    "key": "Contact-Data",
+                    "traduction": "Personal datas"
+                },
+                {
+                    "key": "Contact-Social",
+                    "traduction": "Social networks"
+                },
+                {
+                    "key": "Contact-References",
+                    "traduction": "References"
+                },
+                {
+                    "key": "Contact-street",
+                    "traduction": "1 Avenue président coty Albertville France 73200"
+                },
+                {
+                    "key": "Contact-mail",
+                    "traduction": "Send me an Email !"
+                },
+                {
+                    "key": "Contact-CV",
+                    "traduction": "Download my CV !"
+                },
+                {
+                    "key": "Contact-References-Title-1",
+                    "traduction": "M. Colin"
+                },
+                {
+                    "key": "Contact-References-Text-1",
+                    "traduction": "Database teacher, IUT ANNECY USMB. pascal.colin@univ-savoie.fr"
+                },
+                {
+                    "key": "Contact-References-Title-2",
+                    "traduction": "Ms. Bouchon"
+                },
+                {
+                    "key": "Contact-References-Text-2",
+                    "traduction": "English teacher, IUT ANNECY USMB. stephanie.bouchon@univ-savoie.fr"
                 }
             ]
         }

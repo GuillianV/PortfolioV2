@@ -210,7 +210,20 @@ html, body {
         font-size: 10vw;
     }
 
+    .ct-50{
+        flex-grow: 1;
+        margin: 2.5%;
+        width: 95%;
+    }
 
+
+    .ct-33{
+        margin: 2.5%;
+        min-width: 45%;
+        width: 45%;
+        max-width: 95%;
+        flex-grow: 1;
+    }
 
     /* BLOCK */
 
@@ -237,7 +250,7 @@ html, body {
     /* CONTENT PART */
 
  
-
+    
     .content-title{
         font-size: 18vw;
     }
@@ -257,6 +270,12 @@ html, body {
     
     }
 
+
+    .ct-33{
+        flex-grow: 1;
+        margin: 2.5%;
+        width: 95%;
+    }
 
     /* BLOCKS */
 

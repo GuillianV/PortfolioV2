@@ -3,6 +3,7 @@ import  gsap from 'gsap';
 
 //Load user controls
 import LoadHeader from '../userControls/header'
+import { LoadContact } from '../../images';
 import LoadFooter from '../userControls/footer'
 import { MobileOverflow, MatchMedia, detectMob } from '../../detectmobile'
 
@@ -20,7 +21,11 @@ class Contact extends Highway.Renderer {
 
         MobileOverflow()
         LoadHeader()
+        LoadContact()
         LoadFooter()
+   
+        let cv = document.querySelector(".downloadCV");
+        cv.href = "/CVGuillian.pdf"
     }
 
     onLeave() {

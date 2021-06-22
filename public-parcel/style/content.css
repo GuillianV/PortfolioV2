@@ -3,6 +3,9 @@
     align-items: center !important;
 }
 
+.text-align-center{
+    text-align: center !important;
+}
 
 .block-Others{
     height: 40vw;
@@ -22,6 +25,10 @@
     text-align: center;
 }
 
+.href-none{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
 
 
 .block-Others h3{
@@ -175,6 +182,49 @@
     cursor: pointer;
 }
 
+
+.Contact-ct p{
+    text-align: center !important;
+    width: 100%;
+}
+
+.crosslink-href{
+    text-decoration: none;
+    width: 95%;
+    position: relative;
+    color: var(--primary-couleur);
+    border-style: none !important;
+    outline: none;
+    text-align: center;
+    width: 100%;
+}
+
+
+.crosslink-href span{
+    width: 100%;
+    display: block;
+}
+
+.crosslink-href img{
+    width: 10vh;
+  
+    background-size: contain;
+    padding: 30px;
+    filter: grayscale(100%);
+    transform: rotate(360deg);
+    transition: cubic-bezier(0.8, 0.7,0.4, 1) 1s all;
+    vertical-align: sub;
+
+}
+
+.crosslink-href img:hover{
+
+    filter: grayscale(0%);
+    transform: rotate(0deg);
+
+}
+
+
 @media (max-width: 960px) {
 
     .cb-about{
@@ -216,6 +266,11 @@
 
 
 @media (max-width: 560px) {
+
+    
+    .Contact-ct p{
+        font-size: 5vh !important;
+    }
 
     .block-about{
         text-align: left !important;
